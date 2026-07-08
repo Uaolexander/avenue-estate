@@ -958,6 +958,21 @@ button { font-family: inherit; cursor: pointer; }
 
 .footer-row .socials { display: flex; gap: 4px; }
 
+.footer-credit {
+  margin-top: 18px;
+  font-size: 0.78rem;
+  color: rgba(212, 190, 160, 0.4);
+  text-align: center;
+}
+
+.footer-credit a {
+  color: var(--beige-dim);
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.footer-credit a:hover { color: var(--cream); border-color: var(--cream); }
+
 /* ---------- offers page ---------- */
 
 .page-head {

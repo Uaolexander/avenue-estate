@@ -102,6 +102,7 @@ const dict = {
     footer: {
       city: 'Poznań, Polska',
       rights: 'Wszelkie prawa zastrzeżone.',
+      credit: 'Projekt i realizacja strony:',
       madeFor: 'Nieruchomości poziom wyżej.',
     },
   },
@@ -205,6 +206,7 @@ const dict = {
     footer: {
       city: 'Познань, Польща',
       rights: 'Усі права захищено.',
+      credit: 'Дизайн і розробка сайту:',
       madeFor: 'Нерухомість на рівень вище.',
     },
   },
@@ -308,6 +310,7 @@ const dict = {
     footer: {
       city: 'Poznań, Poland',
       rights: 'All rights reserved.',
+      credit: 'Site design and development:',
       madeFor: 'Real estate, a level above.',
     },
   },

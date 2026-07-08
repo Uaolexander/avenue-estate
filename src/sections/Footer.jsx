@@ -25,6 +25,10 @@ export default function Footer() {
           </span>
           <span>{t.footer.city}</span>
         </div>
+        <div className="footer-credit">
+          {t.footer.credit}{' '}
+          <a href="https://alexvdovych.com" target="_blank" rel="noreferrer">Oleksandr Vdovychenko</a>
+        </div>
       </div>
     </footer>
   )
