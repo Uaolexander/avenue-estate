@@ -1,6 +1,87 @@
 {
-  "updated": "2026-08-13T13:50:46.856Z",
+  "updated": "2026-08-13T16:11:21.842Z",
   "items": [
+    {
+      "id": "9112",
+      "url": "https://t.me/firststreetestate/9112",
+      "date": "2026-08-13T14:07:48+00:00",
+      "address": "Продаж",
+      "area": 51,
+      "rooms": 2,
+      "price": 860000,
+      "fee": 1000,
+      "deposit": null,
+      "floor": 4,
+      "floorTotal": 4,
+      "type": "sale",
+      "photo": "https://cdn4.telesco.pe/file/jY5gnUIIF_W5cWhc12FYIacAPBi_f6KvnOFUF9R7e9Irquk0o32Y5OPbo5Svjt3PdhfyRypzTtaQfJokgSo7zgk9ppqBe_Z4NhadH5_x_XPRDQylTLm04qTdgMYbjRnJ9Vp8kMTc-rDfovn6lwjnc-69keFLTFzl50IrIymrQjLsnWFAQxoMq89me9kbfKGRwqYAMymrK7UTe7rSWfLeYCHgzVP_paTjyHhMWctgouiYGS0QFCrmfKKKgrn8Ytp5mgGW-6mFVum1qcr6tQlYNjgNJK6hWW8tr6zmV9cg6xTsqjdEbuypzEbP_oxqPI3HbCtCIuOkB3kpzv-Ad3XU8w.jpg",
+      "photos": [
+        "https://cdn4.telesco.pe/file/jY5gnUIIF_W5cWhc12FYIacAPBi_f6KvnOFUF9R7e9Irquk0o32Y5OPbo5Svjt3PdhfyRypzTtaQfJokgSo7zgk9ppqBe_Z4NhadH5_x_XPRDQylTLm04qTdgMYbjRnJ9Vp8kMTc-rDfovn6lwjnc-69keFLTFzl50IrIymrQjLsnWFAQxoMq89me9kbfKGRwqYAMymrK7UTe7rSWfLeYCHgzVP_paTjyHhMWctgouiYGS0QFCrmfKKKgrn8Ytp5mgGW-6mFVum1qcr6tQlYNjgNJK6hWW8tr6zmV9cg6xTsqjdEbuypzEbP_oxqPI3HbCtCIuOkB3kpzv-Ad3XU8w.jpg",
+        "https://cdn4.telesco.pe/file/FVq53OigY5tuzg7WLoUS5kgALRX0guNDauGvUNcXkaszchO6uKcPUMajU7T88RsGPcjPphHwJVwvFZlU59gcJGVksNzETNn5MiZbrIRL3d8EWsIRsF3i6GnPR41NgCCOf0bV7MtGj6wgClENHDgXE4f8eu7q3UjMlTYqlr0srKh6qJCpiEwM2uEDpzKHKXJ1T_aX8d6eEEIXqeX0UYjxmF-ej9nNA4MboTvutkrKcncznLPSfhUMigaxZiZxP5aQaBvEf_JeYs0DWjb9w3l94ifPbaHQyXOyljgB4ya7SdwFCLo5ZMSrDN-xYiYoSmrG8Z5gbn_r0rOfYYNG-NwSuw.jpg",
+        "https://cdn4.telesco.pe/file/NOeTa6Lv4uRricd3rsi1wysHjd9EfTHKCa9RT9ouBngNURPsNkAVXk5EwnAkNPry5yaPsG6s8PqeN2EplnO2UMZcLRmqE3xKc643D315FE1ZKpHTsyWrPdj0d7hhL54a0SuahYBHoqTJbqB8i6kTYfmxR_-1I0WRE6499Fhcagac4aP0u1OMWTEHwrn6c9QSeejLdHCRqET3fPtJ1q47kGLuZd0iCI6phuh_yVgat1WlIGjDcuuuY5owCdvpkrO7O30tr8R1-70ddaX0Yb0PDm5bY06jmywtII97NOpi6Gde9C4j3k8eVkfnHOV9fxpDIfVZi1WimJFWhFHK7MMxug.jpg",
+        "https://cdn4.telesco.pe/file/cIU2npgV2WKRUUXhC64awDTQpDyp_NWXQPgVYfilj1YripaC1E0zym-gOsZUP5xrXG4IF4nKxLx2YjRxwLXTHel2QC-Vww-KZ5Sh2xKCiM3bGcf79l2xtTnE7lCrsqx8V7xkzAFqAvOHeMWfgvgwe0O8NEwdB4ZfkgoJFWaYrSsNYqNuBQLOKfgA28h7THcAOHowZquvUTq1AQMayZ8fDAX9ivzJ6VEKvRrX4RETbmzko7En8RlYLha2EYne8F2GfNOQx37cwDg2P1YA02a8SSlo_hcU7yZZorpxU4RuSM6sLdoZgt73film-dS01eTIUEkID8VClNxh_cUy2vkdgw.jpg",
+        "https://cdn4.telesco.pe/file/nvVEk8ppZRI_A25yx2SbdTi4GsN7p9tupsQtrSX12zIGaXaadn9wvXOT-7vwwbvwrV-gAv7fs9VeLoWgXVWhAvN1sncUTZKYJhztwRD5buXu6Kp4aUJqvTNeCUf5eXUxtz__ZN-HlFU-55cWdIy4kwktstYY9MqeNbm5Dm7pj22aMPbsLqo6sAM9It9_17PZTtMJPKwAdyPFsRZZrVyURoylPayExcn3_BDz5JvKQr-W1_7mPFbtud1yT84MDzAVgb7mHIWlJMjtLxQAtZB51sTTibDZtfOP9HeTVrXUEwX4PCEhyPmaYz1tNK1hKVH_1UjaTFqXDtRDVatCIDy7Wg.jpg",
+        "https://cdn4.telesco.pe/file/GMIoeknZNd_PjubnXH-tGbVZD5m_2mpxTxQa0kUnGqp8THVJDW0Cs7N8pjKLG-QYggKe2yd2z1q-VqSF4cwsf60G-REjJ6mhvg18ppZWVXK4qfhbYV3JN3i9iHMi4ncIsYw1riwKIteJTnVTDvL3Ty1gjxOKT4F2eJiE6gr4c7wTt4HOMceq2Kw_pA_TYjrepXYoYmGOKYo4pkYM2AtdjtiGsjiGNmZ6ZPm_ysaiMBkCjKjk4_rmQCHJ99QuDHFdt3F8AjqvXz3uTDUk3WbhN9MPoO4kw055cMIW_ifGD9ADs_XSyD8oGN24DYHbw7RQDwgUIPemnJ-3sYiW_fv5Fw.jpg",
+        "https://cdn4.telesco.pe/file/cpS2N-qVd9pNOBvf5KTTp-cj9WorGy2tYWPuCVjdMu52u44rwQG3jpicrNQEJ5rzmqC3Fo-2bJOUTJdJwmYmuLVDqOTQzSUwt4e9vFEco6JG5HE7kCP9G4SRcXViE_V4DLo8hnWZGvn9BEEa6cb5FXgtnU3ALBtJwOexz-5PPeYtHJ8s1OPfFqoqllA_JPNIN8gHkCUpkmSiAwVPfgMOvEcmwZZxAMuyqTjrZ6ukOSF8QwDztsprrkRrPwzjg7ZieQH3YIk_8nsMBcV9siGw1CP5C-ukGs4lC3tsX6o4UNihJncxnrD5MdPbj0ygGK5n0HqZZ4W5MzwoCB6LyX43rA.jpg",
+        "https://cdn4.telesco.pe/file/l5eyqbfc8d4vOBv5KWGGbUhRfrafpUMCILEFhyNMokZUKwLaLAVWDy46PPOalUQGn_GYuMFRmY390fhMHo2TQyPE0XY_91wyFPUY8iGsBWjGYLenhH4T5L_0L4YTojuvClsB1TiM_jCECVMh3U5DcXgXsb3_zQ3Gq1CwV7t8H8FdhKwdpv0LMGOa5aV3sUc06Yi03aTzjChSQJeGvKzYfcbKr15RQZX3SofA-RbicRado6qqT0oBmLfApStoiKZshXP4YFQlnRnTWAJn-5Eg4l2jO-FLP-cmE32plvbQCp7hoTbieu4KG2gQqkSe2WT_r07MtyyAHNL-84S7KU-lUQ.jpg",
+        "https://cdn4.telesco.pe/file/BMOSa2orhW3yI7o3LCQw9eN6DGV8kTl5ItDqvntyxikiqsPUeGsP86AZI5haRQ_9VLBI80upbzhISL-nbU9EA7ARgJ7YRIcwPUatx0g687aFguwOGCZ_Ck3GLUJnH6ZN4uqsjW64s6Vsly0siLPSUeVIP2O378drCErJ5nTljAVYMe5iRsBCGvinEk12o-IfMEzAMwxunKiBSZ0Z__iJzvIKHUqdVpfvTdlTgH7gDPAyeLlFpHRZIvcgDAt1bxlVXv1X6ejhisQbhjy8HW5fCXLqlDQOEaLB0No0WieKen05r6JDH2slKEVg046LP_yDg4ImDelBEbIWl59Wy2ht_w.jpg",
+        "https://cdn4.telesco.pe/file/UdzRUfLjal0YBPXBK672NTQVh1DNno5kqR8zTxH8GBSuITRl8mVwAyHAowuJQpYEiooH_elHJBL_LvkuSqpC_5z3dPHZSsXxkNyrH5YG-ZPXre9X4tm_WtHWeFRTD1OmrTggWtEDwZxcLwPOTGOkfMb82K0ePumelFK7SR1OHsOjjEiTGoCwCxk-cRDTrButUAQt_OQb3QgOJLYI2tXLeOir2nl2UT1jeY_1YN4edTQYtsamZSowVF3dPZMDZKPQZc2_K_WLT4BeqK-VSq5ZCoJMaQX4_FIZ8hO9trq0g5fzLVgDF3J6kuNe6LXaA4AcTac-LLWcvSKy01MP2eaoVg.jpg"
+      ]
+    },
+    {
+      "id": "9100",
+      "url": "https://t.me/firststreetestate/9100",
+      "date": "2026-08-13T14:06:09+00:00",
+      "address": "Продаж",
+      "area": 35.6,
+      "rooms": 2,
+      "price": 529000,
+      "fee": 500,
+      "deposit": null,
+      "floor": 0,
+      "floorTotal": null,
+      "type": "sale",
+      "photo": "https://cdn4.telesco.pe/file/m3ifytFAUv-7y6WgadaVndosESgaVurSZ8WyCsKLBHKY_4dRmJHvao7S5fxCDxjKz971v4qiBD1Tk3nS90qx8IMrhraymvIwmlDCVyqnluHnQl0zd8yBoMIFP0Kzl3ZtyJDwxahkFX0wR77h6zYpJlsuPlFgtFPy8LLByrfpdVd8zgkiDdhrOHDSA9cX38tNVSpx5fzLLdpzqHlqqDfKNVxsVnlWWKptxclnL5vTsQvJl5RbYH2_c_ZRZMdGnZmZnL5KasxxoLvC_bS3b2F_Ka8Omn8ZGeEZscK-Wg1WRlSu5gzbryeUUBnKFejtI81t2iICf23N40pC-n2HwMEDig.jpg",
+      "photos": [
+        "https://cdn4.telesco.pe/file/m3ifytFAUv-7y6WgadaVndosESgaVurSZ8WyCsKLBHKY_4dRmJHvao7S5fxCDxjKz971v4qiBD1Tk3nS90qx8IMrhraymvIwmlDCVyqnluHnQl0zd8yBoMIFP0Kzl3ZtyJDwxahkFX0wR77h6zYpJlsuPlFgtFPy8LLByrfpdVd8zgkiDdhrOHDSA9cX38tNVSpx5fzLLdpzqHlqqDfKNVxsVnlWWKptxclnL5vTsQvJl5RbYH2_c_ZRZMdGnZmZnL5KasxxoLvC_bS3b2F_Ka8Omn8ZGeEZscK-Wg1WRlSu5gzbryeUUBnKFejtI81t2iICf23N40pC-n2HwMEDig.jpg",
+        "https://cdn4.telesco.pe/file/MIjzchdcWZ2_hNV-61n3_ZKq4ZG5-PAtRZs2u_6LsARwCwhaeyo_tFWxzXvrZRi6TYyRQZdIUsLTP7geq13vVvxLyYf9rd7igQ8IMnx7PX7Zg1QVi61ZuCC9w654KfkknAQQfUnBpdDLlKQmoRtj-DIoglbKE1QLoVMMQHw3JczhTz7-jOMOXrW9i0Qvimd303sx3zuGiR1-ourcUZDBI1YMnWyehY8JhRy80zsRl82rpGNAtM2RISCSqenQv2Ht78NsX2Oy6vZ2va9ZecYMpfpp61NbHnfQbHV2tlukp2diJ9pOJ1FSknj4pV-0sNfTjhjTtxo9jARX_vwZ4gsIxA.jpg",
+        "https://cdn4.telesco.pe/file/VpsijHZWJiNvLejUKwd3AocIo3xcgj4bmD10kqKJA_4XMrEXweZDY7it-b0dVCV6kFIDUYOe4hYi25xkJ1cpNmspAHmRPC6olltumdIzZKXLqoFlz7ElhlvTeHiQ9N0b46tG9Mi9z-jup_dYqJyja23QLaT1zexz8dlqHcwdIEesBYTZFeiFechNTxpf4m9prWyQeskRTi1MgUk5TaHnerTGV4fhGBjhpXojYUodmroSrCmKXGdoTOMpa8lCoJ_ESsipnOlxK0JgQY45Y2gMiyNHKtjwxwf4MarimB0ITmUDwr84EECzCJtqHGswzGyJxVNZPKlyD_M3HN3ZiBDXfA.jpg",
+        "https://cdn4.telesco.pe/file/aHiM9_6DOg7_F5eam9L6CWpizGVUlW7WUFCH4soM43ii5ddf7mCbMpOqktdBWzbEerhrm1iFk1-yyMIuIPg6l2REcXa4LzgfOYSBNxQHiiT1whMl4mkVvf5vzXDcyjht-8mo4XiybIBsOZ1AXoc8Gpd2a2jomlR7Uoc_z2g8VSsfjRw79wsld70DaBhrCHYlnOYRtLJ7nTdl7wCSj5Htj5V6PJ2icf1_kJCg8BeL8jUm75Z9owbZtxO5JE364DvYrpTOaGweZB6vdyQGa7ooIsP-8huaoMHwYXIC9pwGbraesf0qrC1csCfjcywPrT_LiGOE9hQOmGjdO-9IVI6c2w.jpg",
+        "https://cdn4.telesco.pe/file/NencfIAWQvWkN-BaYnKyCdWL7W423ys_J39RDJ8cxZqigUkctEYkxWBRJYTqvjKpFHcnatQd1zt_GbCK0tc40cGTTcVAtxccG8rlZKM6ldp6Y98FVN-M7pqc4p3TPvpgHPNX_dPiw0w1bHV5NQxJUYPD0K9WGCj4M-U6_QkELZIwMMwjbZGR0oL1nRDE4Vxr5R7ff0v_8wzHt5r790GnMplteRIYzXCmf_zMmb8DnE7m1M8tyl4pL-6WO8UtrOrh6hr18ZmVgTa_Jdn6ZFtyPbME36ifAaC_qwk8809VX6yMCW4JYyvDR6-i5A3YICGUq_5koFjpLeiHii-HC0F89A.jpg",
+        "https://cdn4.telesco.pe/file/Rvf35PWepjnjmHOtDh-8OETlkZ8t3v4Ysp7NizZuC9gQrRmMFJzB_KHxhuSoOuWdZlUkvlyjLYWtCmeECHHuyzAURJtjNEHBGUwoUhW5Llxj-Uoqk4gNrT5Tmj1DT4Nyxe72bO6j-2S2psyI_Q3ssb5iVswx9HNd3h2nDFfL85Sf27XKLK_BARKC6R1BJ7ARp-gIn5hfkqR85GtttkmVIBQTEUhi2826GKM8cbVl76t6fKl7NRPb4VWno0uKPHjqBARAH7pjNR8iBqt1YBGSzdBtkKSHsf23gq6nwzvedBe8d7DurIZmkOnQBWgFTnwayg-pCDFV2JNqVOP9PtJ1-w.jpg",
+        "https://cdn4.telesco.pe/file/LlvuWPO_D49mNyjduORPhcjxD_ZXSEHwzNwBQQOjMzkbBYulKQ4Ay1csYGvxsOhpcWG172wKU4GApRg0JzDHlWZyO8fLDnSOtyWN_5fjMWcBl2i-D6g37WEfHGI8VVMpBJAUfzFg2jQDg_gA9sSYENo_QDo6Yd-3xYMNOxqUFC8UYiPKccXpCPY9jRjpcRARagcwswXeQ1qd5upDJpuMZ_hD2ITWpaenQndgoHjkjbarKCkK20Pmu7gk7GkqVO2NHhrjfJZcGX2JhRWQ-1zWbGMn3Jknxv_Oa3eiC7vZFMXD0LEM_KynOH9NqgWWpj6ZSmqA0uFDvYJEHGyWf7Pu7A.jpg",
+        "https://cdn4.telesco.pe/file/fHqJiO5nSaHt-X54NS5zUfFB4o3meRv1ZqTTI2xjh5ttLn70KW1P3UMdqbtFcJrhRY4QiHMhnGbihnUjxP2zI5oYg5QYjDVLKj_DC5ejUJDZIyTBwTau9JdeffsXvi7xUXhOqzMnpMdUyY57DUaHMifl61kUNG33xwAQ8kUsTvaGNj9neoWVjU_Bg8Ix8NeEmK1PvGTVfbZKQDcet8HRSqaNbTeAUA5x3XTJAig-MisJlOsayT-JsdOqlUgRpN1d8nobdL4R2MCy9bJY_9IaB6j623FwIMjiYAuWRSr3q1Ne2qoSG1m_dyFJHQEVKPTdO0cY8e_Cc600_dHBg1bT6g.jpg",
+        "https://cdn4.telesco.pe/file/F6IIFq3MNK4Q-2uRFyU2hKk9QezYIeOI5j5vDCNc_QOsGDCqsRMj-2NKnW3HV1kmI1ygLoKfVCPJcAKuSqv6MYVr3_Td5QCNIbcetIqPy_5tLeRd-Gi2b4RLxA59lHx1m2r_SgK9fSbeaK6VkudFLRbmA6fK4Qrduo1q4GGtNmUTqwHwZQj7dDgb1VYezSn93rzneEMuAFufNadSaSWmYEDzTXpE34PJazCsUXypdQEaLPjCJG0hbF9jdgclivocdfSoIrWznyTPOqBUQFfVJBQjSIfiPBE-yD59m_nLxYTMywMR0PeS_Lx7Sqh7JCYcHxjE6gCtCgZP9MaHuMFllw.jpg",
+        "https://cdn4.telesco.pe/file/flra2ct5lFz8REHiNgkxdByo_9sd3kmurm21eA8wcxX5tHFoJMYefCTjeJ1HKYIGkbzA4sqY89a43hoCh3GgT7jdF4j1xGEBbo-h8r4cBvSjR1GtSntwwrUZ3HP9SG4d4W1Kmaa9RGdn3CEpzO46jLbioYHwR8H7vnoz0gtEgbz4LQ1SULZTieUXNDtc5jduM87HOFP2GGwwnWxdEUFfApaqSfvYMYBRv6R97MHmnK1sc_q6rLDjgHqw6tg02zQVCpiz5ix-pikNiHhqP71VLV043oCWHyWydmGzZoxBWM-HAoEKgol-oR7rh8rL9N7waHkBxBtKH4FWzhe2XYiWGg.jpg"
+      ]
+    },
+    {
+      "id": "9080",
+      "url": "https://t.me/firststreetestate/9080",
+      "date": "2026-08-13T14:01:09+00:00",
+      "address": "Продаж",
+      "area": 127.96,
+      "rooms": 4,
+      "price": 3499000,
+      "fee": 1647,
+      "deposit": null,
+      "floor": 0,
+      "floorTotal": null,
+      "type": "sale",
+      "photo": "https://cdn4.telesco.pe/file/ZeKVeuEeMO-RKmR9L_Mpo3xHDBugrJK-K-ZPOGcSbrKQWzfEalV91y3ExV7QVefl3JtLmr0XMXt-XVHddN-QtIr2jlSCm7z8oSggFgAXaZ5cqwOukfq8YwOUcTFwIArRMISxvbT56E1E6jUVwrb4hk6SS5HdJjFX0NEg7w-EoYXrPu0E0wngzYpDmVTrooA3NldmzcxjaKnfurhyDgEwvlPcFxrYvY1mIRcQPkvrrzZlj7G0A4uJrIxalCyJ_V9wBV44aA0S7EmpUnKhWMW1J5rQcYr9ZopyQuSQWExpOtRYOO3s1d-LsOgmMTUA-w3uV65MtLpfCaxNnncDJjZC4g.jpg",
+      "photos": [
+        "https://cdn4.telesco.pe/file/ZeKVeuEeMO-RKmR9L_Mpo3xHDBugrJK-K-ZPOGcSbrKQWzfEalV91y3ExV7QVefl3JtLmr0XMXt-XVHddN-QtIr2jlSCm7z8oSggFgAXaZ5cqwOukfq8YwOUcTFwIArRMISxvbT56E1E6jUVwrb4hk6SS5HdJjFX0NEg7w-EoYXrPu0E0wngzYpDmVTrooA3NldmzcxjaKnfurhyDgEwvlPcFxrYvY1mIRcQPkvrrzZlj7G0A4uJrIxalCyJ_V9wBV44aA0S7EmpUnKhWMW1J5rQcYr9ZopyQuSQWExpOtRYOO3s1d-LsOgmMTUA-w3uV65MtLpfCaxNnncDJjZC4g.jpg",
+        "https://cdn4.telesco.pe/file/HXAn0XmN73JDZpUotpFwdbIeYyd4rum1nLrFXCNf8SVsKp3BAJr6uQa0zm1nC4IPeOEA7f1XyX9johEywmXShiUP8u1NEHGO8-l4IPnj5Tf8XNRjAk4-noODEUgtsA0ktJZs7lKiW0v1-5y2AgF1fTYoeyOYnfwt06OGX1hFHhuATxi32215HgmHNpb8jF4lDPFz9lhdVYxor4rlG1dUG3snmTRWpD8b4my0ruj_MegivJd6du6oyrl53HTgCQf0rLdVdNNmw38P8FjzYUxA1V2bxLmg5K8zSFKnbuqqa4GE2z3FQNH6UZsxPI-PaZhLuYg-lnNGJhsJqgcKow_NZA.jpg",
+        "https://cdn4.telesco.pe/file/rCN5GsOsPAT3PwJ0egZ1rwvYyOIfgDgB2iJPRFBmxbRYGLDNQGf87aJsh0B6i-Pyu6QCzBrNJKi7VYYVSrEI4iOzWXsuQKQ0LoPkV-85W1stj2mGgTJ6oeE4bJZll2EBdHeAU9NF8bXKXyIeAQtDDmmlpyLgeFhkIqgzR1H5lMD1tMKVKdHvVFasiQTRZGVm1eoFn0Kui2TyfpWVo71YSYzpN18QPujQpz6xXeCVtHROI-bssYopGmwn1UMW4eBKUh0eLfyisR_tSegq3zQpLDnE981xGuGST97Jism7B9E5zWpfhA0eR6h0kna2VV1XFIkKC-0ioO2mALWLUAripw.jpg",
+        "https://cdn4.telesco.pe/file/LKiJ-7YIpswokAQb-ZAXlPA8OJvsDRB9x1cQZo2O1m-oJ-TfUt03Vm-kdmUx-v2wPz8Vn36SBU1yMPkMv_P1LqBTsdpGTKiRj4COZnD0C3SY7ZU3ZDlcLv-g0qH9O3RaGA_h7YBxxVoQF0g6u-ZXhzdKyUUvrw1ZEFWCDWdwIcBN9KbDD46_ExxIqWkePGcxpQKKgsnwuaJSi2ecBtPJVkbrJaJbxWPspZUjocttuY6Ek2qH6Iz2LvkIq2-a5OMIwNEQvmgZtuh-0-VUvBKHwbTJ-kIEaPeKbJvLItd5jn0kSAmrtEtWv-GxZGM1xJ-rGaHSCrIcXzfqMBd0MezuSQ.jpg",
+        "https://cdn4.telesco.pe/file/JIpklbMnDS3437crmEq1Rf7glDtRgz2qMUrmiel2Ap7eib-783CuKq258CfMgpuDLbt7gMkvQgyhslSzLdSbpci-kzTs_nUz6UVpami5r3O0OjXkqOCWaAm7lpUKCoXwi7Kclye8YWp3yWUsEGsCFOn7XsmjVi1jJi4oYF5Euqg4UP1MyfNBVp9emKck8dOsPZAAxXm_dAGBZ4RpjGMwjQ-ipO2PTxnyoM_H7Hl2c2kJYF7VamCV2BRYpBXStVf3PJpmKRMyuQv1gWH9zr_vaoEh9c5MDB4_Ob74z5F8Wgx5HiJaHhf7SrheRL48-vSgQaPR6RgFnkFTuEt0ePqMBQ.jpg",
+        "https://cdn4.telesco.pe/file/Gi6GEdR3E2A_D3eajuSSfBuy2fOaCMV7RK664YbKialsp0BZsUghIc-u0RAtG4gTjLWWkG9KmMCaLzt4A6K4SKwPw-ebVOKoMf2agtROfiEwJGtbI7d0nrAWAJnHKtQ73D_iCQuaGWnNgJxlor43wc2I_ev73w48VMd5EX9J5DTL2ZXUq3Ne8aIk3W4cFVf6PReV1xRvh5uO8otMmFo0F4NUDU_1k47w1GBSiDnZQ0M08Wnv8LgXoJvyZhxUEVD3hfrIdV0uLbwRbWQ2Js4DV_vR4c5jifPsNByM9aJxXktpA7i-WcUwRI_lzBhHo_ILyaOAqjA3z3jU2who6mZahg.jpg",
+        "https://cdn4.telesco.pe/file/QrRPmH2PMQNEJ121fNdUgCIDuFGoP99YMQB3oMU7EpswSuQXzq7WAzFoBvjeMctdKvSA1NF0R71YecIt2b52wJGaWb9xU8wfoiTJDm7DvnyTPbRE78WDF2OKk5rh_Obc8HfHkJDsRv_a3XPWW9-co_n-l--H8Yie8rO1wMcGzBnGG11KYRFNnr7VrSGT1FFnzYC7sYE9hdN_HVQXDkXcf8lQMCYRA-4xcwpNShMIZQhpxkHu3_iV4eW3jo26OKZiNZKajr2FyhPOJZ67d6BYamPQgMVVcsPH-xl0dQK85N9SX4LL3DyHw5m3-CYR76ppLUpIn3FIaKyo5VhmsHY5-w.jpg",
+        "https://cdn4.telesco.pe/file/Cldjjcn0-bUtZIj5cSFmpFXQYnMnfwWlXAs2RycrfCg-YrOckkbD300WMLF8tQT_uxV0sCHUWwOwxmoPCTgGAoWQ5nC7bnBc_zA7dunEm7hg6dSZ2RZlOGgSDp7XG7rBu6tX-Tb4D7vi2efz5sab2r_TAFLYc28HAl8_Po-s8xaviPWpu6Wm2M1ZuqytrVwVu2cpLqmtHmwdH6lixwXvFcogFaegCd4rVwgIyPam6UzIvCt9cUUerM7h3xONQRqRPKtoVDbSEj1G-79apXxEUxYZb7dOEAQCo9JGlAyYLuQZ8jbuAN02leD-7_F1k_RmrgR8KgNP8V85JjXjW2mCxw.jpg",
+        "https://cdn4.telesco.pe/file/Foj-HPCp6vFPq_OeEP3zfdwvNkBdFGue43Z9ncOMHQTmyxjMBR_CkznBBzfDKdqwPXgRYbp7lE_ppTVa7gDYNVuh5a5lBWWylvA9P7qXqY967NjpvOOhSQTO_EUDHyAmOAUrf0NKF0_nmYt1vdGHVsams9SV4aGS06sRu6GFpcxxHLjRt_0yQHrb05A6Pc_sud8HhrVeQjOMt-HIQm0fH3iOlm7miFVQoJxZWN0L286zZeGEi2xUKcNj39UrT48s77W6MuthjZOywBHiM11vaH4M-K_KZOxFQySE9nhC4vugiiTChPfDvgVk4-qj36FSYzOayICO7hQBq_e6CuqrCg.jpg",
+        "https://cdn4.telesco.pe/file/h0-lMgYoznP9nbwauG0VdLjxctzMrSxut73abyeZVnKE75jzlOw9m5FXQiEGDsDf4ChTWn6ocJNm236TkHXk7dG6HAPoZRvOYpOuYJdCVCbU3G1bjA1XvwTIMWmdg3TxO45BUeyQqs7Zy3BZ6yh37P2hEm-YOhZ9TJFtfoAAvQjT88x-h0z5BCYT0J7iLIaPESnaz8IemgwGtlXD6nhTlM7YVBaVfDiYr38K_SUE3Qp5OcfW66fO7dBBp5xT4t4PG2iXKl4epeZLjT_p_L4sPfr2wYI_EhRfiqmSAQUySNwQVw94_vKC5GLrlByqyQaYftx1MNJKO3BoznMc_c9QlA.jpg"
+      ]
+    },
     {
       "id": "9073",
       "url": "https://t.me/firststreetestate/9073",
@@ -14,13 +95,13 @@
       "floor": 2,
       "floorTotal": 5,
       "type": "rent",
-      "photo": "https://cdn4.telesco.pe/file/D2oEBu9TZ-W9Y2NY8RXsY4EDbD9jOSo6hrM5w49JeXyz7_mDTes40clJ7w0H16zq-byAn03ZJbm6KMguC5vc8ICQljYINRxI54Qli-GlHf5qNunv_xeLvZGtOdSgD2CMckUYW4gkRWXrpy-S2h2kjg8HpXtlJgeeKwHUkouvAib-Y_TWKEpDz-1xRTmjpcBFkRWzVB2blzWTJ_KqaBeVpL78qA4V-kG4f18-zmjS7WrTcaVdoDbEY-946dBsURtnTqb3Pg50zLI-5dBaEOLjHJpdFMJgpcn5NheInF3lFo8Ugy0HmvnXxZpgUFupLjuSP8q_2R0lfnb8nB-2uBkh4A.jpg",
+      "photo": "https://cdn4.telesco.pe/file/jd-4YrE17zUSj4slW8uNTp9IGXpsmogaUUd8ehffGwEHk39I1m9bqTRzup6fI7P68GrTt_JHM_W1LwHJHcq25XOq0rYnUyo5N_obM77ceWYrcLKY05FhKz3KTX5SJ48wNMpzKQsTYUbOkoKXkJQPgudRYrDSl-PgQFbCpYnq9WopxbZ4Kmsmdxo7lX3i9jGyAbunuPVCpUUE9gMKott1gEPrV_ev9URQaaxtjic8S8pIVSj5kj0oHVtWDY04Yz7_fQm8xfs1JkC0msxwUeQht4SYJpbto58lU2FpxAjlJkU9sVQ4P_Zvmet8TG7_pS1PpEdL7ph7KDEFygIFympRmg.jpg",
       "photos": [
-        "https://cdn4.telesco.pe/file/D2oEBu9TZ-W9Y2NY8RXsY4EDbD9jOSo6hrM5w49JeXyz7_mDTes40clJ7w0H16zq-byAn03ZJbm6KMguC5vc8ICQljYINRxI54Qli-GlHf5qNunv_xeLvZGtOdSgD2CMckUYW4gkRWXrpy-S2h2kjg8HpXtlJgeeKwHUkouvAib-Y_TWKEpDz-1xRTmjpcBFkRWzVB2blzWTJ_KqaBeVpL78qA4V-kG4f18-zmjS7WrTcaVdoDbEY-946dBsURtnTqb3Pg50zLI-5dBaEOLjHJpdFMJgpcn5NheInF3lFo8Ugy0HmvnXxZpgUFupLjuSP8q_2R0lfnb8nB-2uBkh4A.jpg",
-        "https://cdn4.telesco.pe/file/WhXNbeOTV64oRNZciKV2WhJaAE3oekUXlQclRT2QAGBM0T5P9amz7lkscxxNPVKx9BDjqlqmSH-n4kJs7oDcdREi0xPjeRtFvjfWTnGcV_6bdyLr9W0xJS7Fz5OgLkD1Rg2TbSzFBL8LwHU3HdzLAa7S75dcF7W6kAVkKarUdB71tH1gFjJQb-EeF_F_5EtItk6GHUuwEJVXHPNpO7cofL7xZvkEbJwB-id1VzVm3JAZNppkJS-_RNyNaxUk3xU2BijxxjtTNpNm3AeQgFEQrlYkHKnU6G7kheLrY4Q4tY_l2DhRhzK8tgHujVdrWhGJJKEVFnJUinqAPa8u1n03Tw.jpg",
-        "https://cdn4.telesco.pe/file/JPQz6ZOE4x7ifxaA_GgaDWIat_ALsX4eNc8aKCIcoKiUqko2UtMPI6vnLxEDdVpe_Z6TjACSqTBIMkPh7-F2Ncii4urSq7Uzq4ZEghSs0JbpsayHKxNMt_JFm2JTaTI3_KXW06YPggz_jAcEbfQ5LtWRr-_-XybkVhWVbIOWXCzS_Z-qRJAj-_3RVecm8GuxQ3R6q8wQOu_5TwfsOlO7g9bLAOpBOAg_r3xXBDlHFIkjAu0-ALS0Z3TEr8oS2mE3npUb5pQyVHaZMRIf6ratI74fVlhRX0_V0qRM-cRFRlAGiX8kTfOYeMKQDkj94rPMJWqVGOWoBjqu-e52iSEs-g.jpg",
-        "https://cdn4.telesco.pe/file/TL8_da3NMR5bvvOfNjc4GqxHmaEikHHmgqB7zrUi_SUTkY7fKbCPceGFS2Ks1Q8Zgy9JOOa_GA6XE0zqZNhB_hAiciPxnpqxA8UOXtFDrhNLCE6TurkBuovv0wtwdxFEdfOifOnXzmbYnOWaIICq2BJoMyTRn-d8S-HMLdDAYBUqSjIBTcIIE0DSBfilz6K4vU2mJbJFGNAi5OPHEgxRpQ83pFakhTeHHESBXJ47p8Et4hwpyvueiVsKyl2llEuycCLdphHDUYrxzIv1mcBbwaRC-zY8n_EMpoQcxzcQW0lbfbVrIbj-6Be4gwOZiJSstEatjDedQQsP16tDg4q9xA.jpg",
-        "https://cdn4.telesco.pe/file/WjAhIJwJ7DCIMhArbN6TfZLojyoH06JxVYKO2V_3ZuAN6ROddXmYK720qHkNzua-Jub5dFO7Rh8g4Kjz_9czvyMxM3UwZ7rrvqATZnOybn_b56noXKEu8OmxUKQRNneB5fu66DWvcJWlG2DQTqefpIHNjeCWQae2d_JKDUUcZY7LFMNDUk15G8iw0OFIoj_crj6nclfxN417-hV_WNfbE1fyFSW3m0ck9uO4ed51Y7AERhpSJvjISPliMnxvOQLbWrS5Mn3QLwNUJiFWeL6fPar5He0ye2z0ZBxZTy3c10eNAXN0HqHKozt3Mc--JyRRQ--tQ30TuAZSwW9Dnq0H8g.jpg"
+        "https://cdn4.telesco.pe/file/jd-4YrE17zUSj4slW8uNTp9IGXpsmogaUUd8ehffGwEHk39I1m9bqTRzup6fI7P68GrTt_JHM_W1LwHJHcq25XOq0rYnUyo5N_obM77ceWYrcLKY05FhKz3KTX5SJ48wNMpzKQsTYUbOkoKXkJQPgudRYrDSl-PgQFbCpYnq9WopxbZ4Kmsmdxo7lX3i9jGyAbunuPVCpUUE9gMKott1gEPrV_ev9URQaaxtjic8S8pIVSj5kj0oHVtWDY04Yz7_fQm8xfs1JkC0msxwUeQht4SYJpbto58lU2FpxAjlJkU9sVQ4P_Zvmet8TG7_pS1PpEdL7ph7KDEFygIFympRmg.jpg",
+        "https://cdn4.telesco.pe/file/Jc8DLoSrcHfys4u7HeJJIT0MRE3lG2gdGl6UUWk2_EahW9GyC4l1-oynxiBq95tI-40vpfxFuykeSj5zIFY_O7NAqZuLrsbtqsEn-UXkth5pqC2NALeLq31cWLMHAdG6xx3Sl7Zb2AfuJLcJS4Fx8E_K8-NXia8fIZ1CMRvKlZGy5mWKNZmxVrT2kg2lSJn8hsmuNwLKBP4qTn_vS0f0WqXyRGwddeaykQq1-Y6P22_Aldg9ysGuPUqePbO3JIskYa6nJ0ea22-Tlc0urmKHhXw7DXrsEqRy_sDTOMps0PkvebrIFhxwhv7kmwh_q0i3GpSSyue8J1WCC6Sv_2W-TA.jpg",
+        "https://cdn4.telesco.pe/file/UmNgh0XCKYNKMFEkRkxyVQ4Ax0nVfvDAc1YWDvNV6O_odDilslgrimq2Giuawz6-ro4I5x-RqrKn4kp4xFIUhg8IR8n4gZtmMwRuPbtDWVJa9j2f6dkdvAEz9AwzeOZJRS6O6TMc0-aT9a8wEx4CfSXP0k933vpBsg_4PSo_zU1tbJSFGgx8pUudJVp8XMx-hEi2KPJnHiD5VgQa9FYMLhMt88LWvVEEN7fD91aiPf2hNymFfXa9xaz7WfjiYWWpu9MS21C4UPckZW3yrtuQOYOz2vp9ugZ8T2HqpiHH3rcE14ZoZWvoBT9L0bprWprJF9wf209Gi3h3HjcLpU-Agw.jpg",
+        "https://cdn4.telesco.pe/file/EEyGj3rYqor2a7opTahmr7eRP7dey1BiLB7Ze5Rba3l0xC4uvEICywp0QhKKaTd-icRyR3XJ4uDu_7sGKyh3Nbyh46O8eYVMGkEn0pB6rBkCZ4H63ExT_Bx2egXGOlA3UdejZ86OQGK1r5DFKx_wRbB6nObzZNOh0Us8J90IpbmNUqmdyJKIiird8VvxoUpXKeI6Sd8EvsPjW8tcm3z6ei13z4WvTl-2_555X61INkAsrbY_WnFs8QAu4BXkPUjG6PXIhrpUJzZVvyykn5fbtzmEdoqmpLCG1jkyDHM_sEdIh2QQPxSKedsyZvnfsPZU7r_6i1GXe0H8qsjuPEFVfQ.jpg",
+        "https://cdn4.telesco.pe/file/Gl_bKdTRlVkS20ww6PY0TvQhg-ThB6G8tvxHA3h_b8uWwOeUGK8LR6CpP07IVW1nveJb65fKq_PmyKFUjEpKXwNA4qiVfaWEBSdpYWBCVfY19RLynvKFppDnGmjNi5BxwW6d4c9TRPTdWkDb2aztMVlYn1kvyYhQ63Q6Kr1EzurCSdPKwrfUW7YcxClJObZ-8h4yUAHqupZPL5SxGe2swHMnD_dPIaS_7p6isTX9xwituHTFQyXdG1easbDBPPcPECKVrwsBuoJ2HsHLgcaKw-E4PBHXNoM7KU-x0A-t3razzgSSjYbmyxnoiM3-jLw_wc0b39heghsi1ETamgKSJA.jpg"
       ]
     },
     {
@@ -36,18 +117,18 @@
       "floor": 3,
       "floorTotal": 4,
       "type": "rent",
-      "photo": "https://cdn4.telesco.pe/file/lPnQ8Pc2CgqtBeSewXGCnol4L0HFCGqhEdQz91AsrKEf7biGN0oFJu9yAwzFh290pRHms84cdjx8z0L5-Jgb1JYc7UEiKMoimJSzmnE2IROekttCkZZFuuz5Ql6PXuHon-3D7iK384mnV7qcjGyKU2H7L7AFryrF2BWMs7P3np_rEdLJz2Qcnd3DAhARp0bUd670WkI7DgAX4f1cNr84neVSnrYT4lbvDNifI5nHoPSEbIklIOb2rdpKvmsN2mzqPA3VIk4lNBfj-z1ygPTFpdSw1znptTk7EnH-B26X4_eqZKtkihOQpbf2kbK6ZDMqjqc17GWpixF0sO0xdLWxPw.jpg",
+      "photo": "https://cdn4.telesco.pe/file/axQ1LtXqp3td7u_xYBTY1tm4xc_l7E-zCwWgPMbvpXYHT7simEKMJRYDEzbQJzIs2JCC9zoPhcpinKTFr0Fom86WGq98BnZO2_QcOC3oVwLWqhJbP_0xUcvJk7HWhXfdVZBXmCVSLUgsEBV_wIr-LxpqJ-goKrVMnRbebJAB52ecvh6fn9x-TZ7rH5ONrys6rQ0oFKrMlWSxm9q3rmFi6vItkpdSlL6e6Q4iKHLpSS9VFTfb1DP8zYgkeOnE3loVfJjzBoe8SELvGMjUlrRjR8YX5SFa5_JBcZzPuxarkBHwT3EvD4tuaUonaHlPNNbw-uPQoJW3oONr6X-rMx6Oag.jpg",
       "photos": [
-        "https://cdn4.telesco.pe/file/lPnQ8Pc2CgqtBeSewXGCnol4L0HFCGqhEdQz91AsrKEf7biGN0oFJu9yAwzFh290pRHms84cdjx8z0L5-Jgb1JYc7UEiKMoimJSzmnE2IROekttCkZZFuuz5Ql6PXuHon-3D7iK384mnV7qcjGyKU2H7L7AFryrF2BWMs7P3np_rEdLJz2Qcnd3DAhARp0bUd670WkI7DgAX4f1cNr84neVSnrYT4lbvDNifI5nHoPSEbIklIOb2rdpKvmsN2mzqPA3VIk4lNBfj-z1ygPTFpdSw1znptTk7EnH-B26X4_eqZKtkihOQpbf2kbK6ZDMqjqc17GWpixF0sO0xdLWxPw.jpg",
-        "https://cdn4.telesco.pe/file/MCY8kYk_fqjZlIQw4uCJd-b7GOYHwlLjvdmppdCrB1RSuicevE8td0efT-6UddMiPxaCj84CXjDa3k16G3tECcqcwRqzOAoJk1QsPqTvejRfK_RzzOc3Dos5mylMZpyWEwZm1WvUXdbtOcPJ6dYJOlQ2VkRL4rJ9c7Et5PU3ig5TbuA9BrkcjGGvA9NWIswy1_pMJ9FEm4H0XToVIbl3wAY4hgjSBsg1gIWrnqc576_k-MX6q0A1OPIJEBqbwjfXVg-Ge-T97AKBWpdxChstMQNmRt873HcNITPN55_G4haE_t5IvO34xexAmQzZn5875iGJMLyFQfyBkusy5CxfmA.jpg",
-        "https://cdn4.telesco.pe/file/LjWkr15xGLrzslAbiZl8hFQHETyWAM-XaQNqW_Jvgk1-pwnPjQsK3YDBjBrKYFJbeDks72sP3lZ4iw9TkOQa2q5QLUsOko_RZ2KhpZRxC_5fX8C-ZrNoTFarxd56UHQhGypiPvfWM7r2xZe6Py5oeia6Xbdpg25lmHjXDzud-xjWKQilMUDpo2CrksJnqr0HtoEPAmCmcT6llkCZZr4teJbBPdlKJ1hWODfLkxmYec_9PtcoZwDNQjrEPCmO7v4HSL-CPJ60nD592wo6Rzd2MNHZC9WeDUc1EMWIFl2qQQmYRM1Y-zG5gHRLAzQnuD5YgmZpYbpyx4usauWneVKolg.jpg",
-        "https://cdn4.telesco.pe/file/ctHKiTidi_TL8QgoFHVJGfI_8N_uit7pf9wftgOmBVb_gVSjCUaVxI7H2RJi1RxgPQTSWP0LeCc1z1aNzDvHOhM01JzyQmWXJUJemgyblHd3y1X8GzqXhWtVuqQ6UwFsRy0CXCLToXt8IIAhzc_Ir0OwLFt2V70SLg_g-Kmmfj_9l0beqZ1KpyKP_6JF3UEcdhaxv09iNwx2iSv00zXdjXm6RQnlaNPllyf7KRm8_Nn_rQYy1b20J5ICXv_zOYwa9LqSWWPt7goS6fFqoWhMOS4e7MKvPUAWpF71bTDGZLeZr5W9C7FOmQ_KsTkPrxjQ0WZotdYAVR77SXTdZnS9sA.jpg",
-        "https://cdn4.telesco.pe/file/irEp2GhXqXWWDYOHUtWm6HgyxbYyTYo7-dMWdPBgBv5HzH0MfEmXRoB4bsEp8VRi-FxdCHHsrgBRmp5cx_llEkvfho4Q416OHQDR-bnzO9r6Qvb_LamzeGrOFS3qnxymDleuD7_s-7atQdL0HYAQxWO6RZryZb9YhMLrMPWVtp7HmgxZcv-n9xW97QMx9SW-XYn1TwW2oURsbLug3RkUi0TF4jugx4xlrun42DM2ED2z1FVO-7Tk3Ho5c5Nl7BBXOx-c8fZ8LdnhjuBUq2BXsTS5yWum7uLpbKCf6cDGiQC75HGkUX1F1P824ItI4whicHZOPYukDUYvN_aV7enjcQ.jpg",
-        "https://cdn4.telesco.pe/file/S1mK9H3RLYsy7Z9ZWKyibiL_iyoSKq13JAqSPMrB3Efr6juDTju4_vX0Oaxm1UtzJ5m7dQ1Jn1aaAC-O4BybPAtC09Bj5YJwnR-ZWHSodlohagHto5Upa4xYJdwynMXD8IOwffLtl9KEx1XNlzZXR9mUm7QJp8NYKYbBwqpzflhn_nFxp_uLDing3XSiZ8lv-zByQB0PH6IEUflQt2fHwhi3Nqv2jyJUn97Zee2XWjaaLzlJN918THTSbj2P2GXS7Peiy4Dd6Zaa6SAS6tJHwh0g7LrTFDEILNaCxpQ49xyN_vF6LtApsrUGNuO2P2l8epb3K3tsZSaEJHph4MTcjA.jpg",
-        "https://cdn4.telesco.pe/file/EYxLi0cS8qWjvOuieM-q0P4piT0zxeP4zviMi4Ylm1XD-iDWTp3QgwXf_K3L__7fBmR3cxyMH79dW4vjeIbO3XkRF501HtMjVDeHk51qfM6NWtfFtQTUrsSYl635CfM4pMHvc-Z0ao_3aGalw_47hrT6q3N2KSpUvDPEAFNMCLp9EQh07qM4l9PT8P5LIFVZ-BXB_Zenku57q6xyVtVgnzzSB3UFpqexyUDOMGT-r9XUMZFga5HdXy9fliuUoR9pklI0PdrhTNkV7O85EgbFGUQfNLrYuLqtrd4z7Fed16zFxpZGcIiD6O2ww9iBW9Ep_3LOgw4fllLCQIe2wEhZqw.jpg",
-        "https://cdn4.telesco.pe/file/vXDRVg6CAy-zTSUV9PuJduYfpgJVG6vjH7tC3cbYC2PdzO6vabs8x9WbsI1MLSk9-S0umQP-SKHNMnwAYSaCy_nC0KysaX_LslqUu3pVKJyYngrX5t66Fy0svdteDf-R8ztHlaBu4Li_TtPWv1HSRUxTmsWKgTSJ6r0wnu9Nk0Y2ArbEoiRAuoWE3qHlDD6LwUMz4Z8DK0zAg6_WINCJ0GVPxx5K1gvnwK3ChFzo89xvXejwSIybxZxC-_pp9yU4mpTi-VfslltfK6myDbFeF7TZHTmbY8y8G1ifvItR-42qoBhCUpxwY5Iv-T5kty-YzRgS8kMnl9KaFyw3liXgMg.jpg",
-        "https://cdn4.telesco.pe/file/H0_dyK9u4NUHL_Qhh-z-affs6bhAF5a8jdo5JcQBybh_zHJyWOOTPDG8mt5w0RJC_hD63aWGYHUDwP_qwRptcYHJXUMPvsk024dYXBF7-klFDZFa2eNBsP0RzO2853RP6fQzAxD1DHgmE-_H0kXxF806eu3gad0eU-XTHd2aKuy4Us2AujocHNY_No49ji38-CyCSL5DahpIU3ku5GzBsElrm8h3xRKzyKU5gmIqLvuRXw0Nw0x-8TSxcKhnR6ZBq3-z45tTRE86VofJQ8jYQPh1a2d2HsejrkJuwptkm8fgor9sLMcAIraDCDGiVBYeDL8GfWCZ3Pw_5I6kNMiPWw.jpg",
-        "https://cdn4.telesco.pe/file/KdI67NuCvkSHpYs29bSgIIDzvQ55ynlSfD-NcjKo684lXYxMVQTp0N7PxQ_BU1kvuZNfbfvfcAyly1eC5r60x2oT7xadFRA0rjl20XgozCQy-q6rPl8MbgF3ntyHn8aPKH03Vra1pV3yysfvvcfnKt97Z-Bn1I9wBAQ3bQAcUQHF_OWJlUhyqz2UEflpWAEBEAdKkfuw5EqV5LMKcot96DGU4bawXjitnM8CRzkOjJABkR0Gf4VO3ROi8PCGKl6UDp5j4FDWJ_4CuWc-Ao897cX_DZridvn01QHQoWCM6Qlk5A3kYUaEScyfJmws5FpcuNAbEGFJdHi83MEhsTe3qQ.jpg"
+        "https://cdn4.telesco.pe/file/axQ1LtXqp3td7u_xYBTY1tm4xc_l7E-zCwWgPMbvpXYHT7simEKMJRYDEzbQJzIs2JCC9zoPhcpinKTFr0Fom86WGq98BnZO2_QcOC3oVwLWqhJbP_0xUcvJk7HWhXfdVZBXmCVSLUgsEBV_wIr-LxpqJ-goKrVMnRbebJAB52ecvh6fn9x-TZ7rH5ONrys6rQ0oFKrMlWSxm9q3rmFi6vItkpdSlL6e6Q4iKHLpSS9VFTfb1DP8zYgkeOnE3loVfJjzBoe8SELvGMjUlrRjR8YX5SFa5_JBcZzPuxarkBHwT3EvD4tuaUonaHlPNNbw-uPQoJW3oONr6X-rMx6Oag.jpg",
+        "https://cdn4.telesco.pe/file/mvEhx76n7FUIoXXTZUUOuBgkZW3mr_dXIQ-AB7lbGyD-h9Cj1bzv5PeKLOkTgDmBLFDKuyeSPwPJp9FdDEAI8HdRjW6DPAG4sgfbYHlr0l61kEzVtwi5LmLnPQEMfcoFKHNcxlSbKNGCtQ0VJRZxWXDIRnnxyLoocD_tnmd3pSFRXO73ivjnlThl58D8mbHsi_e_IkcgTtj_EGBlg8HApOd6lgm7T51nzcHRodkhyZrDQsxP_TwGTocUseZ_lYr2h9lA0F1UAvqfyJNEeQ_8pq1RhQXGPRZedp-iidkUvvs4F0ydOMcf_7yaijS9Ntfm63ACkua_GwY2H4nL9vx2rQ.jpg",
+        "https://cdn4.telesco.pe/file/NvFgt9Efd-0Tl1jEawlrfLaN9qfRfa6Fkc5dgmZdtIPU_dz2GxHQUBQNN9As9il7RnQgd5WCBX1PqLHdsOUp3E23lBDndYNQTj-LwQ-TaJrsk53uCUhryh2doMxTNNfm3bxh0drV6I2DMGJEd24FwR6M1ZE7atYDhaRZZU4HI6ahDyibwFsXKVXSqUe4kcDIfSjhlvf1OxbYKYwJpNdkSLX2IFN1oaLFmuKb5mQrsthFDgJ6CAQypzHAWRETw5V7zNc1J4ainCDbyxyOKj2Lmt96-YMwK3HvvMM3RCttvA-5ZMxcetZys35y_l8mxoLhrkD_jVGJNa07yrRX7xD0kA.jpg",
+        "https://cdn4.telesco.pe/file/YF_XhIveh3eqC1JO2kVRykC2bSe_ZyXhlqXQLm01gEIBwNSsVPAsW_0RCy6v2OhmGaHyU8wX7Dtw1oA7WqzxhDbeX3eGgRoxQpo4Gq_WtgfyY8HFS1EPZy_2lOuQKuh5IIDZ9YxAdeScu-ju_qGLKjGuK9ZrN0a3tjFa74q4O2Q9Azg49yxDVQFlgS57StrkxlOSkz6GmU_WCS-pWgrSekHYWCrV5lMz_FHPNn1OPo5e6GXDWuzWb5Co8NXsmixNrdne9ZoRLc0UFOwoi6RDdfMzcXkk98XRLziX-yUW4ep-2PWMcjb9OIIpSos9fpr5VRKSsnBpD1m2Ha9VQOfJoQ.jpg",
+        "https://cdn4.telesco.pe/file/lYMKMpojyGBnrMUsl7QrP-9upiHgPmxd59BIMuhKfX-3XOCicwki4mcbOKbJcCPIX_X432pRF3oSxpspxYS2lIgAidE2OkonHOjC5nvX8kGpmPsVRHWVOCgx5JvBHkPwKuQ8jAykmwmrcHsCxX97D81lVSvkgg_5KiaSMzwJivRklu-lo4jvRQa_jUqtwqPRd8IcZUMfKhRhse5BszxtXk8LNNvqsz7mtNQMCJJbHIoqA67e-ALvd7rXQNWCbkT4mboJATgT1PZwq4ODZb9XLqZkAZPlUmn1ZFTWQ36FqI3BY9sM_j_CcgOq3v0baokHNnlHdOSsqnRDONKoZoO07w.jpg",
+        "https://cdn4.telesco.pe/file/mvtlsL2RJgamt3E1gsd-H3bbn7B2w8w_yqkA5Xy5CDAmicW5l0GGhbSNZHYoHvRa_bNqKcFTLSlMOzU_LP446J8UrT_MbJCZ-cn5SYEUoE3Boc2i2V4V3qcjAvhPTI7GweDOwKHp193XHA-2ddw55oTtLuDhvlxDhpJOqfpj0MXJ2j0A9anUMd1821HqRHLPUd1ZYwktEPXMAbKlGcTZmDG6Vm5dPSBddHwDiknCq0Tw5UhA4ngGL2IUpkUHhZrYAmm5wPLzXNP4asPU8_A_0fSrVXIDTnLdHnrWWeqoigd6GDQxSefANHVNlSjzecDVqb-DwHAImxUFbRsatsWoOw.jpg",
+        "https://cdn4.telesco.pe/file/P6bIvHx7ebghECPh_ERDmIGPpiE5H6cMhB5rPa-_xuhLFaHWWjbgw5uAcTAPJ6EEFzndInxYpBO4rW6XzMtCKdbRNnE-VqXaKWEhEd-iMEENWPByS6Bjlg3QxByMzEldgqpQlK3LuN9XsGNFTHMZbBaPkIqcgh5LC1JqCZhuyQQjyEBeDAGrGh6eAzwoljEJG4fme01lypKptN9rYK9ySgxDXI0CgD0xxE25aLyWq_hhAfI7CMbzuqEf28riQ3kZ2dCdkaD0vnD5rFYbqMi8-0lcJkF6ZyoBaKbADKoGQOldfeSyZszWEAy6AaJE5KgE0Zh6tq3CURVYePNJteXMbg.jpg",
+        "https://cdn4.telesco.pe/file/KwKEIwA0HrvLD_T3oNi7Pe86cMQyxL7n6uEHtPGg4EnpurqSj768tJ7uO9FQOK3sGRUILUGUWWsDwtAUNczcy4hLvgeCNpXehilq3rFvQRWoJDBXu6CT1RI1rL5QwRgNxanQDsmJN520wrOpZOr23PP8cIfcV00iIoAVd-rS4b3SHAHi_2MgC42IDop0bT4O2neSf84tAuRbSeDh6jiQCorNFIlu9rcgPWcFSuzNnOC_qRLhoxelRzJocGAqMVV_hiIp2piwro8qTedrlekJ6BBVtBpHcU0pSUscjT8peEyhIhpo07ue645LkoVLTyjBzeiiATk2LMaRxMZVajJXjw.jpg",
+        "https://cdn4.telesco.pe/file/deFytlyiVRy7eaRecK85PQtt7Ndg-mav0SYjVEFw9SEBL2R2smwKb2XjyowofF7QRs1QJrCnJbc1BiBICl8ir7yxFbD2TJIKlbqg7wcIBRhklZry7P4GUeb_kSa_lhvphsAyIaL_Wiogt50vY3MWWs_021KiRTQ6VzbiDBaF6irFYeqC7XazkmbeSFdwmD-yaht5CHwOW5-_gwJ03j22F7OLVVhgj16YNUWXBzWXZYAVZHXQn6jrhvaPQvpDARpq6e6jQh-B2lEXLYy9npnLe6ltuPfCtjAltQVnLB1bdBorHc7e5Z3k-UMxfoiIueBfux_ONhWr7tvZTO0K3zwwJA.jpg",
+        "https://cdn4.telesco.pe/file/Sd6e4Uzn_g5bmObiAqjG5WZVW2imsjNLH43-GcMtn_oZhsYrFl_-Ki44ydl6ITjPPHpedG8omlIQS3lvDhlafuc6QVtfzjJIt62uUvj4dAd6Ec0yUsmSSmycKG9z7lwiEK-XAXx2QI1cmvjsCODIMyDnzpB9w1OAVoyc7PtQQ96jWC4qgCm4dmV724tHOVLHEmSRFC9EREO6xIh7SUqvE125JdGL_zsqocFDi9leGR7Q1a_vjHJ4uqSispUiNr56pbTbxl_MnDga4r1bTV030iKEswGqo1UDVGMqNy1V7Ff6xLIkd2DAWXVg_nchrmyJ_zme7NunnlQU3om3G6C2eA.jpg"
       ]
     },
     {
@@ -1422,83 +1503,6 @@
         "https://cdn4.telesco.pe/file/YBnrqFGVyUu2pfnCzt5nnfFnwHnA5Tocc_Qhn-0TAgeWPWGBlH_jsvQungGI-HFJR2jzA5aIufmcbMkH56b0tYSBSfDqhRTtB7z_T6L7OZT7eSfs6OCwIKV6e889-jZuGO7_e7w77x5VbjXBFCwXNVhmPay9jTgWXPG9KDUD1CRHW8gUVm6Vw0_YCnzaMLSwV-L2yImNLUbWwmT0xIi7lLirXUWghx49nmDmBSATjPGGhL1TsSut4StSWKMFNTdWhGocoIKt3b6LCD4CZ-REjEJVF9GDB9gl08plE2Sv57FQLxYQvKqy2dJ6ZU319h-p1QgtAons3gfw9DWmEp5MJw.jpg",
         "https://cdn4.telesco.pe/file/RUZRLZ2gCx4aG_r3mE_9MBLoTyIEizqfKslFE8CytTrHzv53DFe7yRSbDjY28MRbYov1xsCRp3msgTNcpuVifmovc4PjLRgje2oA2fxWOjvkXgXqD37r29PRadyPxcRxyCgE7misJ-TBNQ-uLANuK66zuSQY4qznUuiSXOJd-dsRVuEyI-hzGtbqjJHy0uTJ1BQUuLmFkE3dppl3ha64S2cn_KxB0_YZycqsbK6U9jliUs8ZlEpY6J1u3u6uAyapMG49MAQXFZ22inCSLBf1mst0pgvvsf2Y5VurZMhet-xv0pcJrsFsB3hW9KI_PdfoH7nDwIcuC7ycMCj04-wtkA.jpg",
         "https://cdn4.telesco.pe/file/SFGnAVvSAz-qexaSuS2AlMUe4Ed0uiGvI3ax7GzsFmokAH1Sx8Nd9ZLGI9jdvfQ5x9xce_1jH0TVrQZk2sO6wSVzO5NfcSkEgUAKfmitp9kCf_GRFQak4yGKJ7cwuXcM6fQAwMtvXfvah47QTuyieTsq81YxUnnlRqv_2ka0DfQ3vCIyLVlqO4KMZbIO9rCjfVpZskq9Swo7E_o2aHy7b-HGZRP51Hse-V7bYa9LDRWHCt2CQtIu1i_mZsl39fI9iEPJE-pkwvslmBIc5t_qRXL1cBYf7ILfqny4OCiesGR5CK1ugsqgCQRqydf-j_ZI0aUJWG27mB3ov_oeQn9rLw.jpg"
-      ]
-    },
-    {
-      "id": "8489",
-      "url": "https://t.me/firststreetestate/8489",
-      "date": "2026-07-06T09:59:34+00:00",
-      "address": "ul. Jana Spychalskiego",
-      "area": 40,
-      "rooms": 2,
-      "price": 313000,
-      "fee": 250,
-      "deposit": null,
-      "floor": null,
-      "floorTotal": null,
-      "type": "sale",
-      "photo": "https://cdn4.telesco.pe/file/SM11I662gMn1qXtdEwmK42Y_4qmQOxG7nOtFrmlI_3SiMeBxBk7CyFk9EZ_g4Fq2PWNEn71lRxojPwispVgvUhIBYLpHxbVHKiwJGKaMLoMN70t2275grtgXBNojKNRLAEc_FAjoOdTSvVr2XXMphXy1ybjIUIoI9y1riysy_aL1t82h01i-3atbBLkqFAZJG_yzEH0WmlZRZVNp2LOE4ljcX8sU4pq_89IxhsuQ_l0JsFRY8aNElfUeOBsHf375rherIb3ONihWRpZ4iF_G2AVNEYN7O68JaXy_qEjClyqgG4Pzu_PFhn9uLdLSZpbadJwUg1u1RrLZYvA6-WqqUQ.jpg",
-      "photos": [
-        "https://cdn4.telesco.pe/file/SM11I662gMn1qXtdEwmK42Y_4qmQOxG7nOtFrmlI_3SiMeBxBk7CyFk9EZ_g4Fq2PWNEn71lRxojPwispVgvUhIBYLpHxbVHKiwJGKaMLoMN70t2275grtgXBNojKNRLAEc_FAjoOdTSvVr2XXMphXy1ybjIUIoI9y1riysy_aL1t82h01i-3atbBLkqFAZJG_yzEH0WmlZRZVNp2LOE4ljcX8sU4pq_89IxhsuQ_l0JsFRY8aNElfUeOBsHf375rherIb3ONihWRpZ4iF_G2AVNEYN7O68JaXy_qEjClyqgG4Pzu_PFhn9uLdLSZpbadJwUg1u1RrLZYvA6-WqqUQ.jpg",
-        "https://cdn4.telesco.pe/file/Ar_YdOv_IeZKgbSEB9eR98I_xqd18bzECf_IJLhJClx5WE1IjkInn0rjNIxmQPdtDCDiSW3sltod4ALvaXoV_TRAAm3BBCxXTUnm3m4i38udUhmtH2LfdoR8x8Tqz_h4zOvEm_J_9ZtqCA6hKV1XBgehTX4QAxOpUlNmeLdBvh-KqA9dtQ3rQ7IXD8NAHwtyF_WSrHIvC-SXZB32wuW-G9ZimgYB_xbZqsSG8FFubWaeZIm8TmCNoQOhVi81oNgKIMRzG0k-ySQDkT-QsSjrYuwzDOKRJjfTwBGMJQX6lD19jSEz9zTMy-lDux2My-SnQ4tU2Bjtlu6-0Hy50uMGzw.jpg",
-        "https://cdn4.telesco.pe/file/hbEJpv2HGb9llM07cp202au77M0r9u4UyfK5i_z6bLaVrPWL9krAS7_VYILBPgfnqGG360oOPAMltU_eC8qKe_Ul2oxWIZXHuzs6dgUToDg03DcV-bIGPDoPG4USbzvlh65lQWWwsd6ksuGzEMD8V3oyAh7zKRE992GYjAjL2YZ4Hmb8qllFIvM3dJKax6JQ_8ZKnBQgdmQ2r1WLEzKcPh2kZTi-HlzSt5Fy8PWTylO6MBic1fyaeWR5C1hn1Mr4_QjDy6vhbqJQLm6EqOwok4lY6cYXZLCFDmWMUnmuxpvhsM1QvlDC0IBN_Q-Gvo-UNWTbtHK4PwwH6fMThcq0IA.jpg",
-        "https://cdn4.telesco.pe/file/t0WPfg2QDRoTO6gyL_wFMUCStZry0nV9yrr8oa1FjbXiSHUIOoPk3dCZIYh1CdRnu4mY10ffqW26RPmLYHH1RY6iKAii5NyG93m8FwDLWchQPAoHuI90sJmQAu9Y-RVSiNAqKbaom0tunFK8tDFBnr0mJu5AtAVWdJVTA2zz1iWCYoCaBjMqjqyET8S3pYIWqvSy-FyLpMagoohubf4SwX43ekelZ20meTcJqLZAjZeW4nELjQRNLSvB7icqC2YbSVw_2ViMd_vlpu2lrEQPiCouLhXuY6VVfQVTm9pRWvLoL2DNNnX7zPdaiOsHJiTmRqPKIURAVp4U0NePzvoMpQ.jpg",
-        "https://cdn4.telesco.pe/file/twcLEVhPAgOOz1f_Wsj_HI5h-KwgELuiWg_ZeqNmQZsRrnzZ0DNZ6VUGUtcq1E5v3w6IvwCabQk6kyKrBI2LO6_GjW7Tt7mjEI8QG5mG299utO_yElPKlL3xieGnIu4ARhnGAKJpcyZKUCT9H81mCxsyGDNhKOQE_0GO6gCpZVgxn2A4ubO6jKowFQWBxD-cAE_agwLL_Sw3EGOIt1fgjHHT-2fBa3CyJ8zCf96WK8r_U75vfodufUxrc2aQEjxpOQEWzVIioksVVjdl_NtjoTKNvV0TnNvcKx3YQv69A6NDQeWOv3xXiGdVxEmF3rm8KbpO9ytVjGaw80Z0RQRu3A.jpg",
-        "https://cdn4.telesco.pe/file/BlKnwxoFStPb4wmma2gLDlgbkxKGOe0FGzlDxqPplOchSOW1QAMolKJVyXb7uruhOVpmFgBzmOhWf5s71to2a8Ajf5twwhQV9dvQ5i-MX9as2NQgwrdp0dIJv-0TXECPF8ituIlIX17mz3YvuYhZlAT16HHl_5ZT82qfEwIp0OvDk43EYnI5tDjamYyL9lzpkMjP-IINLtMGJ_4VkUbYTPWCaxxHC4JLGr5-qW7IsOoDNagrDnV2VxjCMAxIOZzwYoukZ0FdmhxRCKq5HvPGnAaElfXX1ZbzeAcf36jwbomd3bjCNcf5XJDSlPY-WQZ4AUf_UL1Ga2UvtyO6W1ftlw.jpg"
-      ]
-    },
-    {
-      "id": "8479",
-      "url": "https://t.me/firststreetestate/8479",
-      "date": "2026-07-06T09:59:30+00:00",
-      "address": "ul. Jana Henryka Dąbrowskiego",
-      "area": 27.07,
-      "rooms": 2,
-      "price": 349000,
-      "fee": 480,
-      "deposit": null,
-      "floor": 0,
-      "floorTotal": null,
-      "type": "sale",
-      "photo": "https://cdn4.telesco.pe/file/nm3U8r34D7LZJ9qnkFXnH1GLJHdYAJ2Ct27s6b3odwCZNYDK-tLDMm_1N9E3DOGgxspcdBYolUQKtQZ_KDAY4yk0fj0ci21IFONa7jCeSDpBvlW-FsveJYn_yuXRE-MFHyBAlqB_08fnV-wLYeVj9wWwN8lNA_xeLf8G4ilS4JeM-3whObgKoRMHHIikGpJO1v3EuVrO9Na5HHrXG2Mp1VEK5RBZyB8yh_YcA_s3NXQ6tStvbkF3IqKvbb21ibVSoOMbQk1CPoSCQuDwMb1DXzTiANmnKAtTXBJfsEiMWes70BE3i4YtoHSnubERoFfd1mZsy4MbBN07fUXYkdalqQ.jpg",
-      "photos": [
-        "https://cdn4.telesco.pe/file/nm3U8r34D7LZJ9qnkFXnH1GLJHdYAJ2Ct27s6b3odwCZNYDK-tLDMm_1N9E3DOGgxspcdBYolUQKtQZ_KDAY4yk0fj0ci21IFONa7jCeSDpBvlW-FsveJYn_yuXRE-MFHyBAlqB_08fnV-wLYeVj9wWwN8lNA_xeLf8G4ilS4JeM-3whObgKoRMHHIikGpJO1v3EuVrO9Na5HHrXG2Mp1VEK5RBZyB8yh_YcA_s3NXQ6tStvbkF3IqKvbb21ibVSoOMbQk1CPoSCQuDwMb1DXzTiANmnKAtTXBJfsEiMWes70BE3i4YtoHSnubERoFfd1mZsy4MbBN07fUXYkdalqQ.jpg",
-        "https://cdn4.telesco.pe/file/UCjtHU3a-Fhx5IDQjpMGg37rRHVOB8aLvSfk_mLwT6dStblN0rPYT2UxJuiWNK8hZHo-iUd-npqnmGwB6T9peUnEqD3BshX88OQbl0EWDZFBAbHmHlM6HzsG68IH1mtKL-kQwvG6D7rNpRD72GdCBkuDrS30oIYomitvL9Xjyt5WXPtwAJpCGv5heCrsxAPiuM6FAOCKPhg2Y_66VFSGxusJsE2xv0iSSDNCDtfEaeLC1SQNM2s-FHgPidR-_QN9U6VvWTtl9bVf4vUCU6G_4wbDBl7NQE1WQtPzQtoBhV0C1RUdI2zI_jS-rtPOXlQDZVe31mGwflibsXmOjxozXA.jpg",
-        "https://cdn4.telesco.pe/file/bhQSb8_Dq50F9uFLx26jx7SVVpMgRJEQgdr7638dLhmSKkN0mlSO9k4DlNfg_JQDAkjV5B1_pgtzeK9FknksGemIYd6VjKdd8F_K7Mu8JiiS2fa0xfHm0V2ZDrdYhcOzDum5vZqScG0CQyTT9B3KXeMtrvTBskwaO6r7BIRhKz-zpFBukShwahj3F9v0Qd4YAcMRWVOzyH5Yiz2w5yTkuMo9vNHjNj9PWBn3zUSOQUvc0A55njLmEyHgiaJUbcE55lyYRCsWQMdD1lrgkStsTXorpQAAquc0FSQfjbCFe_0GzoyKd0FQV7cbKPGh5HhNaxWSHyUrZE_DZ_N91Ei0vQ.jpg",
-        "https://cdn4.telesco.pe/file/qYcX0aZYujrHFEK4jG8S8XLZAKEFtbG2oTj6N9AN1hTdsLMpxNctqZ72s6MtBz0ElKsGetxlvgr16BUCwmS_nO5mzj2-B2dGBfJyK5Q0B1o4muLBcjqAIVxLkLPfnkYWHvjgonsPfEjpQbQBzpABD8FHCFFRQ2qbzhKuFVc_wuIQpjnjT_qq5VVAWZVJCxjbYoPf-fwKMXgxzstvgOv5i0KQwn29yxypFxLEYZfq6C1KcQaTh04B3T9fd7XP87-Cnav-hSgG497MTGplcBbZiaMQsfHW6JqCJ_Cxc_AHX6hfjNyExXyS619asOL8E5x1YLv_839U8TNPWjRPkhkV2Q.jpg",
-        "https://cdn4.telesco.pe/file/AKmL_2tO6SrlrYe6aw7N0SXAjD6jnHJg2MAViq_Is-NJe0dADZd8OyFCP0DcIz1bfzrLtZ3NlZVfSb8fF5tez448Z0XmYx_3zS0IdNorEP1W9L8BoWbn8-mOfV4_7Qjw8s_H5k_DBVYHTKlmq7arL90qMBrkkQ5lVdGKF5v-AjyJtDxSTk1pVEpQI1gTkNTVDkq9ypZZc0lWFO9-XZPB-HXxqL2N8cRf7xxhi6dx9PLy2hZVeVIlR2nZNrYxmdW8FXbphtHDgkKFxr3aXpTWXZ8_2BwQvEBzYeiRx3EAck3-Zlvwdsy9yVN6yTjbyEkTrjkq8W1gC7boBm3ljtcOrg.jpg",
-        "https://cdn4.telesco.pe/file/PGjZ5qNQuKIxZNLU3yfo6GDvC23w1LQCT7oPkBNf-zR97bhzaaMvfGA7bozhGOr_KbsA-40cimjJCdf9kwtIcR8hjJfHgwqGAHlPOpdC1YPDqDhjoj2rUwzcJprkgg1TRg9886Rp08C4HbFzNCXlB7LYrun-avPra30PZAqeagB-fhc36LnJbUXHlHIvJeWCVFOHsQNJ19X_6Pf9l96dLG5zqtyL-pt14Jb3MYazUXd6oKA7w8CjnVvxM6wfv7RQWQXNX65FbxYfhiF4Ra8fusidB1SDafFiQKolne9zzJIcu1zugKl5Ro0yA-LawrCtBruxnPGzoBHIFCPUm5ijHg.jpg",
-        "https://cdn4.telesco.pe/file/MAuR0Q8UXR8s38rUlZ1ClAITe2dOb7jBsWC01yvbGY8xL4H_QF53KA39HiT0fmKoVIUB6iQ2wmNPNhp8z3rTG_Iqu_zvlQ7jpTC67laxogh99e346aTpgCSHdTJ_7Nd0i7LairbdLnqkdFo6YO2rlcjQFsPuHffH_srqm3k3VDn9iAa9rRHQxjgx_EvWNasLN2H7XIHAz9Q50OQ-Cb4HE1fXroPmMJMRWjHwtB04BaE28c7frdKaAAxGuavolTeXYqP1fekSBpfFQ7m3eU-T_-Nv659pYsb80tk0eiEpq9i868vrlU9dcf-72FTD8uiKSKAlJZV_ji0vce-LH7fbOw.jpg",
-        "https://cdn4.telesco.pe/file/MupqIrbXWbnh8reZ4nmaj7bhJlUBQx4f0_szJ4A-mX2ZF1kymYHaTeWR15GCJVvMZSu72Z8Qd-mXGKroQsUJa6MgTIQOh1YtaUSJKXTebisSBv5L2qS4pSMZD3k7-JvIyamjmRe6MtYVRljXiuRjycgVP89lLiEwpIVmJAt0h5_9K4CrTHKDwZXXKjLJTGkrJJjfmGUbe3qLEzqtKSgeZo_Jbou0LNc6HcAeQg4OOrg5B2c4xoL8v-bcjLSF-PPceBCd2DOiFPoYJ8bksKMLAjpH4sinP0LYg1yVbR0GzLylmJ9iNCH67WZdjtVHkyqLqjIQIWEcbdX2KrcYKbg-5g.jpg",
-        "https://cdn4.telesco.pe/file/H77ZGakyL6H4UDS-BHU73-PvzFpoLetDsRyswYTpRrB768JsNssIl2S6wGipZG1T_2A5S-Onj19yKu6texRLL6UwhAJxc9kAMAa8gjbTjvFPOQWYZjsjh78Mn2DPsBSj71hBC1_C8gzckgqzA0vgtib-5VLIJW6rgvi4PsDqk2vECgTGXKGoYlnIH4a1qVDSilsvl7kr54xBBsTEnFWGX4RATRpSMUx3NxteTf2jJKz_8N0e4TO7Ned1rFWuQVQBQ0Pik-ABDn2G9JL2nnvhoR9YoKa7hc5bzH534Li_a--X4_pWFippdE8BplD9dohcoZHm3jupT1RyhR6kBRRzsQ.jpg",
-        "https://cdn4.telesco.pe/file/cTvZLp1fbIjDMT7lkqLtyljkK7wOfLZhcnnK9m_sfUzSIsBAUzTUnKkPtGxdEzbyOolMuxmBlML6kHVHncD0Hcqn9Tbm64JTgXvpE11CzGYbJkRsVgJJKn5xyE7lSVVaJ7jBRz79hFUIrFD0M8Q9QqkeeTAQNAeftyJKXEmuqfla1fz_NzUGD1YDQ21HHPyBCoqmylDm9dV0fEn9BCqSBjP2FWgRR0ODP_9rK0Nzp2sTSs5TWtyT844KC_zGCs3XPliMr_A8Zy4d6HS0DavzAwLjkdKIrIU0s3ZbyEKbNAt4KY0w7A2yJyz7J_Y5DT47ORxWDStdTzT9gTJz_N9akg.jpg"
-      ]
-    },
-    {
-      "id": "8469",
-      "url": "https://t.me/firststreetestate/8469",
-      "date": "2026-07-04T11:59:35+00:00",
-      "address": "ul. Pszczyńska 37G",
-      "area": 93.05,
-      "rooms": 4,
-      "price": 7000,
-      "fee": null,
-      "deposit": 14000,
-      "floor": 0,
-      "floorTotal": null,
-      "type": "rent",
-      "photo": "https://cdn4.telesco.pe/file/k_oEJNSJjb0wT84CyMCHFJqPzodyzt1a-nfZkOcQRCO53V8LvwZKQK6i5SqxYOwdO-VFP_RZE3_t0tm_GxL2VIjUGKPyIk4hHs-vOG9Iv8P7a1q_4nOUCO_jOY48MKkiGk5_p1Ot2_dNncyAbTyepPpzvkAKg2FgAG2JQPgr6uj9HnXIMKIrt73bA2sbqF-3kYsD0eeeweLDgOyVWNQNvJ3OMfS9HpTS1gcAC99w8_5GR3DaL-YqFkDz3r1Mwm2NAl4hfehE-o-_2d64ICtjM_9-08YI937ETtsCHjpFtSDLHlTapXoCg5Ul2TZfJDMpVVuXlT2nmD42qaphoZlGrw.jpg",
-      "photos": [
-        "https://cdn4.telesco.pe/file/k_oEJNSJjb0wT84CyMCHFJqPzodyzt1a-nfZkOcQRCO53V8LvwZKQK6i5SqxYOwdO-VFP_RZE3_t0tm_GxL2VIjUGKPyIk4hHs-vOG9Iv8P7a1q_4nOUCO_jOY48MKkiGk5_p1Ot2_dNncyAbTyepPpzvkAKg2FgAG2JQPgr6uj9HnXIMKIrt73bA2sbqF-3kYsD0eeeweLDgOyVWNQNvJ3OMfS9HpTS1gcAC99w8_5GR3DaL-YqFkDz3r1Mwm2NAl4hfehE-o-_2d64ICtjM_9-08YI937ETtsCHjpFtSDLHlTapXoCg5Ul2TZfJDMpVVuXlT2nmD42qaphoZlGrw.jpg",
-        "https://cdn4.telesco.pe/file/tn5Hhad6uvvLyYk_WrrrqRYwF7g6S5r_hOAdojqR9S8AAebymuvFSGAMenpqZVMu_lkoWMheQBOsT6cn1omk_TF3vLsawgSufFGw8u8vUVO-97BUmR4kN3iHbb-Wif2dd_BbN-GShSlx4xIwD8HRJ_in9YwEe0rjqgEBs12NRr26NgYsaU9RnRxZyKsDZsAu2OpTXJc3gKKKWtxqs2VLDf0EwYLz1P8yymgPLW1RXLXeN9pLfJqTjVldhDYpMQP7N3Xw-yx5LEbuayBUK5ksd0tw11AQA2P0mm7lIfa34A4SfT4byYzN-qRybMyuoEGL_O6cCVq1Np70Ea4U2VHaZQ.jpg",
-        "https://cdn4.telesco.pe/file/WPVDDvOh_ES5ZGieHbmv5O_JvXmjK_z529hpCoUlM87GBjiKMbufOwAXkpblvXJC7vC93XW45yhyxgWQzK-ySlRnPhSFu4CPpM1VNRAnyxB2x4spFaToMYnRWB1S5HgCpI2il6WrCyWwOIUigAxFaCu57HFpKWnnX6_2170U_-UXbfMKKLhMlIWVJIl8eNUJ8MpexSAJ5erlxZWuTwxnvGMfDN-sdLCBbyYzqpX3UYexhUVp7fMVwBsyFL5jaCGii9y_10oYSyN0PVLoRzoyVHzBtXeYFJnUQRI1I4H0cfKfFtlNER1cgc-6DgClFYOX5tpBudBdRFeRo3Lx3uwoJA.jpg",
-        "https://cdn4.telesco.pe/file/lQoXwwHCEySQk7a11yyyvjIMPiE-dpeU32Oxslo1YddO7s1V8G4JCxyyXbEUb8q24Ck4YCvYjzV_pYt9o18ZWDd2PR7CqsNoH-2hDSPZWQWkbYiZOeTwrYwiIh1lnxGlMV0QmuKm-B0KI_RBNlghCRaB5qXw4St1TyTwC2XvKg92QXLZsoSf1MGQgt7LfZztJVDI9wGwvycsiLs-z6iXlQV2ZUymrtPgPPqKllXB17qmpa9NvUmehqrdYReLeT_mGQpIpw7areUK8qgQQD09VdIfc4DKtYk-7wIiDUPcsIDDpj0Moi_WSK4i0YMIF7qR1BhPJHNgtT2w-gHAeEWxfQ.jpg",
-        "https://cdn4.telesco.pe/file/Er6UoDnwiIA3CVuEq040VtfCXBPJ3wqQAYXSHxvuJcDtT-EU597pVCkPsdOuK3msRjDz4DNPJobNieFSyQwl2aE_APtiIJeRB-1JPUM6mIapGc_BIpO90aG8OW-pXiCkZ-Xv1cslWM3ZnOnukjr_FQ-rsClIDWAkPv-Yi206HRc9S3Bd4BXz3D2y-eeksAnj55Do1ZdNajlHNpkPCtwIqIdaCIZcrRxYyvSUWO0w6orM2-JUUZ4T9o4kw9AUsPwwAO3Xawqd8SMPBVVN-byzLI58n8cxap9te1QregE9VOI7JwQjk-6GAiYKmbzb--h6akkrLJW8xA7569YSc8qWqA.jpg",
-        "https://cdn4.telesco.pe/file/cA7CKD8RpPfouidFGDSWguI9yNA-u-l2wdwGb7-Q9VbpqCQWCKhS3EMU0oSw7Zif9q7vX3IXxSA8TkUk-p2COW7nXBe89tLDKVEQ0aVvvaSOtjn08aTyBt-bTT2pCn25vapDF8_jF-s-kb9oFx5GJGi6h6S-BvHWXMNuU33ZRx6LLlTJzFL7RLHVqImvGF4-7VRlPK3hN2qzZuCTUjBg8OsKqq0Zr1PhSUYUiO_p6Yr8WfZvVAaUgwhw5MOqxL4UzhZyz_kCQpvqIFelmnosyT-vd_f6dr5hqjk0zNdqhgh48J-_RIjJy3ghPeAqcSQyC86n0PrD1VSSTzyQLHFxxQ.jpg",
-        "https://cdn4.telesco.pe/file/t2Er7E1rTwcKPSGTNlTbaOdmjmUYyqLBdRzIO00d1qrPsci5dXoOkfI8riyp_CYsQOoc0wIrzkVFSSwNlUm8YyOA0F6C29VSw6ttAWGE6Rucxp7sp9EcClKniT-z1jilzHo-MJr4z9efCUfZP4YDs4xzFqdICnfSqJTYj8VtRiGN04EvLrloiTo85hYYbR6TobQMZgh3RbX41wauhEi5zL3XwGe6OGWKVxFTLBWj4TS9aOE49Il1KWw1_35WyLSM8ngKWcKimrnTnenWjZvG_kEWUrQJUsq3wjLCAg_sUXXmNhPp3EHafDAOcPiQToLVV5etGWHXgmRdHmEat27f2A.jpg",
-        "https://cdn4.telesco.pe/file/mmoNw6gokdfkE4oFyCfbst1fw-mLwYjk9GNkNOOsqUoPFv05f94uY_FKbVGEWvBOSHeABqExUweGTXbqVjSoeCAwb_wAasv7h1kRFMdvTnDfETcsgxRm1l3e7Vw2LvVS7VfZZhgRwWd9Wayv9UMTIwMN8nUGvV48EVhpEV6Lmw1c0WnHAswGGnwDNEbHCZ7hM8XIabDMDzr1okid9_w6o06oPsTuCfdOkUG64EKMSVm58plDw07be_uIxXbBMTo-3oeaYHFU9YNSRDuBuP2SbRhkyMtKNmLJh2srYKjJxlAs02rH6f7rOZn-DoFqNHbhj4xT8MTn0-yQ5y2uQPKv7g.jpg",
-        "https://cdn4.telesco.pe/file/AJRLpoOKTje-dVY7TNtR9ULb8iKy0OZTcKhsJEPG4sEG969HO34HyYMSIsXZJCrTMxeTUrH41r7hDcSqhuW05wCBIDRsKCmMjTaqiO_zGSNzX_QDU6VG3I5gurtJGwruQb53JnlfodSYYZol245ysR1m8syF03itQdjOPyTyTc_37URTbEOk2EdROpihcEi56PgZ8exJfIc-u6JT2XYraUMgLMFbhwrIiiSnuaDJzS2LpvyFI-6n5eBIwAmCju7iQvNPptobvxrvh-1HD04y-k9CQWVWScA5Rlt1nnpBeRJoGtWdhPCj2VHzs-tKX18-VJ2ss4EG4Taq8Lae5n3NrA.jpg",
-        "https://cdn4.telesco.pe/file/TfURRyN-ZvYPg_My26ledaQGb4ahEvfetVws-J3QKsUuPLGZjDGeWGP-62AVCwRa66FxvnSgnat1DKxsgT5xSjDRTDbuTVFK_6iKnl9Lz6Pd-ah5TgqRhkVLc-lyNXWtl7EjlOhtDl2B3AgVYXMJq7iOn8jeIxIhb34WAkDFMKUJ6Nl2NK8mZO6GcbsxzSYUMEWk4qACc-VVkTj81rIcamslaIdpcR1TO7N-Ke8hsNX2lBVdeAjXAvmxRqtceJ__pm0xUrHwzv7x8fcDibRj383ab2iSU7A1dCILzIroV8NhY_SJpMee4dwcBhJesdZwtUppP-RRtWWJs7AVbcZC7g.jpg"
       ]
     }
   ]
