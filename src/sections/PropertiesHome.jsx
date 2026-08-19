@@ -1,13 +1,15 @@
 import { Link } from 'react-router-dom'
 import { useLang } from '../i18n.jsx'
 import { Reveal, useProperties } from '../hooks.jsx'
-import { TELEGRAM_CHANNEL } from '../config.js'
-import PropertyCard from '../components/PropertyCard.jsx'
+import { TELEGRAM_CHANNEL, TELEGRAM_BOT } from '../config.js'
+import PropertyCarousel from '../components/PropertyCarousel.jsx'
+import { Icon } from '../components/Icons.jsx'
 
 export default function PropertiesHome() {
   const { t } = useLang()
   const { items, updated, loading } = useProperties()
-  const featured = items.slice(0, 4)
+  // у стрічку кладемо більше карток, ніж вміщається в екран — щоб було що гортати
+  const featured = items.slice(0, 18)
 
   return (
     <section className="section" id="properties">
@@ -27,17 +29,22 @@ export default function PropertiesHome() {
           </div>
         )}
 
-        <div className="props-grid">
-          {featured.map((item, i) => (
-            <PropertyCard key={item.id} item={item} delay={i * 0.08} />
-          ))}
-        </div>
+        <PropertyCarousel items={featured} />
 
         <div className="props-footer" style={{ flexDirection: 'column', gap: 14, alignItems: 'center' }}>
-          <Link className="btn btn-solid" to="/offers">
-            {t.properties.more}
-            <span className="arr" aria-hidden="true">→</span>
-          </Link>
+          <p className="props-channel-lead">{t.properties.channelLead}</p>
+          <div className="props-actions">
+            <Link className="btn btn-solid" to="/offers">
+              {t.properties.more}
+            </Link>
+            <a className="btn btn-ghost" href={TELEGRAM_CHANNEL} target="_blank" rel="noreferrer">
+              <Icon id="telegram" size={17} />
+              {t.properties.channel}
+            </a>
+            <a className="btn btn-green" href={TELEGRAM_BOT} target="_blank" rel="noreferrer">
+              {t.properties.bot}
+            </a>
+          </div>
           {updated && (
             <span className="props-updated">
               {t.properties.updated}: {new Date(updated).toLocaleDateString('pl-PL')}

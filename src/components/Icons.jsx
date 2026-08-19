@@ -1,3 +1,5 @@
+import { useId } from 'react'
+
 // Brand icons: paths from simple-icons (CC0)
 const paths = {
   instagram:
@@ -18,13 +20,35 @@ export function Icon({ id, size = 24 }) {
   )
 }
 
-// Keyhole brand mark drawn to echo the logo motif
+/*
+  Фірмова замкова щілина: пропорції зняті з логотипа агенції — заокруглена
+  капсула, кругле вічко зверху й ніжка, що розширюється донизу.
+  Отвір робиться маскою, тобто він справді наскрізний: крізь нього видно тло
+  секції, тож мітка однаково працює і на світлому, і на темному.
+*/
 export function Keyhole({ height = 34, color = 'currentColor' }) {
+  const maskId = useId()
   return (
-    <svg viewBox="0 0 44 68" height={height} aria-hidden="true" focusable="false">
-      <rect x="0" y="0" width="44" height="68" rx="21" fill={color} />
-      <circle cx="22" cy="22" r="9" fill="var(--bordeaux, #380106)" />
-      <path d="M22 26 L31 54 L13 54 Z" fill="var(--bordeaux, #380106)" />
+    <svg viewBox="0 0 100 128" height={height} aria-hidden="true" focusable="false" style={{ display: 'block' }}>
+      <mask id={maskId}>
+        <rect width="100" height="128" rx="40" fill="#fff" />
+        <circle cx="50" cy="33" r="18" fill="#000" />
+        <path d="M42.8 42 L33 117 H67 L57.2 42 Z" fill="#000" />
+      </mask>
+      <rect width="100" height="128" rx="40" fill={color} mask={`url(#${maskId})`} />
+    </svg>
+  )
+}
+
+/*
+  Сама замкова щілина, без капсули навколо — суцільна фігура.
+  Використовується як маркер у списках замість абстрактних крапок.
+*/
+export function KeyholeMark({ height = 18, color = 'currentColor' }) {
+  return (
+    <svg viewBox="0 0 34 50" height={height} fill={color} aria-hidden="true" focusable="false" style={{ display: 'block' }}>
+      <circle cx="17" cy="13" r="11" />
+      <path d="M12.5 19 L6.4 48 H27.6 L21.5 19 Z" />
     </svg>
   )
 }

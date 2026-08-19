@@ -7,8 +7,12 @@ import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
 const CHANNEL = 'firststreetestate'
-const PAGES = 4
+// Канал віддає по кілька повідомлень на сторінку, тому щоб зібрати пару
+// десятків оголошень, треба гортати глибше.
+const PAGES = 16
 const MAX_ITEMS = 60
+// Оголошення, старші за це, вважаємо неактуальними й на сайт не пускаємо.
+const MAX_AGE_DAYS = 30
 const OUT = join(dirname(fileURLToPath(import.meta.url)), '..', 'public', 'properties.json')
 
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'
@@ -73,9 +77,20 @@ function parseMessage(block) {
   const photos = [...block.matchAll(/tgme_widget_message_photo_wrap[^"]*"[^>]*background-image:url\('([^']+)'\)/g)].map((m) => m[1])
   const dateMatch = block.match(/datetime="([^"]+)"/)
 
-  // The address is the first line that is not one of the metric lines
+  /*
+    Адреса — перший рядок, який не є ані рядком із цифрами (метраж, ціна,
+    поверх), ані заголовком про тип угоди. Частина оголошень починається
+    рядком «⚡️Продаж» або «Оренда», і без цієї перевірки саме він потрапляв
+    у картку замість вулиці.
+  */
   const metricLine = /m²|кімнат|pok\b|💰|zł|поверх|piętro|кауція|kaucja|чинш|czynsz/i
-  let address = (lines.find((l) => !metricLine.test(l)) || '')
+  /*
+    Кінець слова перевіряємо через (?!\p{L}), а не через \b: у JavaScript
+    \b рахує «словом» лише латиницю з цифрами, тож після кириличного
+    «Продаж» межа слова не спрацьовує і фільтр мовчки не працює.
+  */
+  const typeLine = /^[^\p{L}]*(продаж|оренда|винайм|купівля|sprzeda|wynaj|sale|rent)(?!\p{L})/iu
+  let address = (lines.find((l) => !metricLine.test(l) && !typeLine.test(l)) || '')
     .replace(/^[^\p{L}\d]+/u, '')
     .replace(/^вул\.\s*(?=(ul|os|pl|al)\.)/i, '')
     .replace(/^вул\.\s*/i, 'ul. ')
@@ -98,6 +113,36 @@ function parseMessage(block) {
     photo: photos[0] || null,
     photos,
   }
+}
+
+/*
+  Telegram віддає фото за тимчасовими посиланнями, і частина з них уже мертва
+  на момент вивантаження. Порожні картки виглядають як поламані, тож перед
+  записом перевіряємо кожне посилання й лишаємо тільки робочі.
+  Перевіряємо пачками, щоб не бити по серверу сотнею запитів одночасно.
+*/
+async function keepOnlyWorkingPhotos(items, batchSize = 8) {
+  const alive = []
+
+  for (let i = 0; i < items.length; i += batchSize) {
+    const batch = items.slice(i, i + batchSize)
+    const checks = await Promise.all(batch.map(async (item) => {
+      // серед запасних фото шукаємо перше, що справді відкривається
+      const candidates = [item.photo, ...(item.photos || [])].filter(Boolean)
+      for (const url of candidates) {
+        try {
+          const res = await fetch(url, { method: 'HEAD', headers: { 'User-Agent': UA } })
+          if (res.ok) return { ...item, photo: url }
+        } catch { /* мережа підвела — пробуємо наступне */ }
+      }
+      return null
+    }))
+    alive.push(...checks.filter(Boolean))
+  }
+
+  const dropped = items.length - alive.length
+  if (dropped) console.log(`dropped ${dropped} listings with dead photos`)
+  return alive
 }
 
 async function main() {
@@ -126,20 +171,37 @@ async function main() {
     before = minId
   }
 
-  // Merge with the previous run so older listings survive channel pagination limits
-  let previous = []
-  if (existsSync(OUT)) {
-    try {
-      previous = JSON.parse(readFileSync(OUT, 'utf8')).items || []
-    } catch { /* start fresh */ }
-  }
-  for (const item of previous) {
-    if (!found.has(item.id)) found.set(item.id, item)
-  }
-
-  const items = [...found.values()]
+  /*
+    Беремо тільки те, що є в каналі просто зараз, і відкидаємо старе за датою.
+    Раніше сюди домішувались результати попередніх запусків — через це на сайті
+    місяцями висіли оголошення, яких у каналі вже немає.
+    Посилання на фото з Telegram теж живуть недовго, тож старі записи все одно
+    показувались би без картинок.
+  */
+  const cutoff = Date.now() - MAX_AGE_DAYS * 24 * 60 * 60 * 1000
+  const fresh = [...found.values()]
+    .filter((it) => {
+      if (!it.photo) return false
+      if (!it.date) return false
+      const t = Date.parse(it.date)
+      return Number.isFinite(t) && t >= cutoff
+    })
     .sort((a, b) => Number(b.id) - Number(a.id))
     .slice(0, MAX_ITEMS)
+
+  const items = await keepOnlyWorkingPhotos(fresh)
+
+  // Запобіжник: якщо канал раптом відповів майже порожнім (збій мережі,
+  // блокування), не затираємо робочий список — краще лишити вчорашній.
+  if (items.length < 5 && existsSync(OUT)) {
+    try {
+      const previous = JSON.parse(readFileSync(OUT, 'utf8')).items || []
+      if (previous.length > items.length) {
+        console.warn(`fetched only ${items.length} listings, keeping previous ${previous.length}`)
+        return
+      }
+    } catch { /* попереднього файлу нема або він побитий — пишемо що є */ }
+  }
 
   writeFileSync(OUT, JSON.stringify({ updated: new Date().toISOString(), items }, null, 2))
   console.log(`saved ${items.length} listings to public/properties.json`)

@@ -2,8 +2,9 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLang } from '../i18n.jsx'
 import { Reveal, useProperties } from '../hooks.jsx'
-import { TELEGRAM_CHANNEL } from '../config.js'
+import { TELEGRAM_CHANNEL, TELEGRAM_BOT } from '../config.js'
 import PropertyCard from '../components/PropertyCard.jsx'
+import { Icon } from '../components/Icons.jsx'
 
 export default function Offers() {
   const { t } = useLang()
@@ -26,7 +27,7 @@ export default function Offers() {
             Avenue Estate
           </Link>
           <Reveal as="h1" className="display section-title">{t.properties.title}</Reveal>
-          <Reveal as="p" delay={0.1} style={{ color: 'var(--beige-dim)', maxWidth: '46ch', marginTop: 12 }}>
+          <Reveal as="p" delay={0.1} style={{ color: 'var(--fg-dim)', maxWidth: '46ch', marginTop: 12 }}>
             {t.properties.lead}
           </Reveal>
         </div>
@@ -58,13 +59,23 @@ export default function Offers() {
             ))}
           </div>
 
-          {updated && (
-            <div style={{ marginTop: 36, textAlign: 'center' }}>
+          <div className="props-footer" style={{ flexDirection: 'column', gap: 14, alignItems: 'center' }}>
+            <p className="props-channel-lead">{t.properties.channelLead}</p>
+            <div className="props-actions">
+              <a className="btn btn-ghost" href={TELEGRAM_CHANNEL} target="_blank" rel="noreferrer">
+                <Icon id="telegram" size={17} />
+                {t.properties.channel}
+              </a>
+              <a className="btn btn-green" href={TELEGRAM_BOT} target="_blank" rel="noreferrer">
+                {t.properties.bot}
+              </a>
+            </div>
+            {updated && (
               <span className="props-updated">
                 {t.properties.updated}: {new Date(updated).toLocaleString('pl-PL')}
               </span>
-            </div>
-          )}
+            )}
+          </div>
         </div>
       </div>
     </>

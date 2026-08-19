@@ -4,21 +4,35 @@ import { useLang, LANGS } from '../i18n.jsx'
 import { SOCIALS, CONTACT } from '../config.js'
 import { Icon, Keyhole } from './Icons.jsx'
 
-const SECTIONS = ['about', 'properties', 'services', 'team', 'career', 'contact']
+const SECTIONS = ['about', 'properties', 'abroad', 'services', 'team', 'career', 'contact']
 
 export default function Header() {
   const { lang, setLang, t } = useLang()
   const [open, setOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const [overHero, setOverHero] = useState(true)
   const location = useLocation()
   const navigate = useNavigate()
 
+  /*
+    Перший блок — темне фото на всю висоту, і бордовий текст шапки на ньому
+    не читався б. Поки низ цього блоку ще під шапкою, перемикаємо її у світлу
+    гаму; далі вона повертається до звичайної.
+  */
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24)
+    const onScroll = () => {
+      setScrolled(window.scrollY > 24)
+      const scene = document.querySelector('.hero')
+      setOverHero(scene ? scene.getBoundingClientRect().bottom > 90 : false)
+    }
     onScroll()
     window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
+    window.addEventListener('resize', onScroll, { passive: true })
+    return () => {
+      window.removeEventListener('scroll', onScroll)
+      window.removeEventListener('resize', onScroll)
+    }
+  }, [location.pathname])
 
   useEffect(() => {
     document.body.style.overflow = open ? 'hidden' : ''
@@ -38,7 +52,7 @@ export default function Header() {
 
   return (
     <>
-      <header className={`header ${scrolled ? 'is-scrolled' : ''}`}>
+      <header className={`header ${scrolled ? 'is-scrolled' : ''} ${overHero ? 'is-over-hero' : ''} ${open ? 'is-menu-open' : ''}`}>
         <div className="header-left">
           <Link to="/" className="logo" aria-label="Avenue Estate" onClick={() => setOpen(false)}>
             <Keyhole height={34} />
@@ -90,7 +104,7 @@ export default function Header() {
           ))}
         </ul>
         <div className="menu-footer">
-          <span>{CONTACT.phone}</span>
+          <span>{CONTACT.phones[0].display}</span>
           <span>{CONTACT.email}</span>
           <span style={{ display: 'flex', gap: 4 }}>
             {SOCIALS.map((s) => (

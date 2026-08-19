@@ -1,6 +1,7 @@
 import { HashRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import { LangProvider } from './i18n.jsx'
+import { ScrollProgress } from './hooks.jsx'
 import Header from './components/Header.jsx'
 import Footer from './sections/Footer.jsx'
 import Home from './pages/Home.jsx'
@@ -19,6 +20,7 @@ export default function App() {
     <LangProvider>
       <HashRouter>
         <ScrollToTop />
+        <ScrollProgress />
         <Header />
         <main>
           <Routes>

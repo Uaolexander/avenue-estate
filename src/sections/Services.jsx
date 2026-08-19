@@ -4,7 +4,7 @@ import { Reveal } from '../hooks.jsx'
 export default function Services({ onRequest }) {
   const { t } = useLang()
   return (
-    <section className="section" id="services" style={{ background: 'var(--bordeaux)' }}>
+    <section className="section" id="services">
       <div className="container">
         <Reveal as="span" className="kicker">Avenue Estate / {t.services.title}</Reveal>
         <Reveal as="h2" className="display section-title" delay={0.08} style={{ marginBottom: 'clamp(30px,5vh,60px)' }}>
@@ -22,7 +22,6 @@ export default function Services({ onRequest }) {
             </div>
             <button className="btn btn-ghost service-cta" onClick={() => onRequest(s.id)}>
               {t.services.cta}
-              <span className="arr" aria-hidden="true">→</span>
             </button>
           </Reveal>
         ))}

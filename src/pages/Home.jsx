@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import Hero from '../sections/Hero.jsx'
-import Marquee from '../sections/Marquee.jsx'
 import About from '../sections/About.jsx'
 import PropertiesHome from '../sections/PropertiesHome.jsx'
+import Abroad from '../sections/Abroad.jsx'
 import Services from '../sections/Services.jsx'
 import Team from '../sections/Team.jsx'
 import Career from '../sections/Career.jsx'
@@ -18,6 +18,8 @@ export default function Home() {
   const onRequest = (source) => {
     if (source === 'career') {
       setPrefill({ interestIndex: 4, comment: '', key: Date.now() })
+    } else if (source === 'abroad') {
+      setPrefill({ interestIndex: null, comment: t.abroad.title, key: Date.now() })
     } else {
       const service = t.services.list.find((s) => s.id === source)
       setPrefill({ interestIndex: null, comment: service ? service.name : '', key: Date.now() })
@@ -28,9 +30,9 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Marquee />
       <About />
       <PropertiesHome />
+      <Abroad onRequest={onRequest} />
       <Services onRequest={onRequest} />
       <Team />
       <Career onRequest={onRequest} />

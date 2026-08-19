@@ -3,6 +3,14 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  # Коміти від sync-telegram.yml роблені стандартним GITHUB_TOKEN, а GitHub
+  # навмисно НЕ запускає інші workflow на push від такого токена (щоб не
+  # зациклювались). Через це деплой мовчки завмер на 09.07 (за 6+ тижнів жоден
+  # автосинк листингів так і не потрапив на живий сайт). Слухаємо завершення
+  # sync-workflow напряму — це стандартний обхід без секретів.
+  workflow_run:
+    workflows: ["Sync listings from Telegram"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -16,6 +24,7 @@ concurrency:
 
 jobs:
   build-deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

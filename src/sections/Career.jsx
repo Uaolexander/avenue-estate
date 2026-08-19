@@ -8,13 +8,12 @@ export default function Career({ onRequest }) {
       <div className="container">
         <Reveal className="career">
           <div>
-            <span className="kicker" style={{ color: 'rgba(247,243,230,.6)' }}>Avenue Estate / {t.career.title}</span>
-            <h3 className="display" style={{ marginTop: 14 }}>{t.career.lead}</h3>
+            <span className="kicker" style={{ color: 'rgba(212,190,160,.75)' }}>Avenue Estate / {t.career.title}</span>
+            <h3 className="display career-title">{t.career.lead}</h3>
             <p>{t.career.body}</p>
           </div>
           <button className="btn" onClick={() => onRequest('career')}>
             {t.career.cta}
-            <span className="arr" aria-hidden="true">→</span>
           </button>
         </Reveal>
       </div>

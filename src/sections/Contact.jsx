@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useLang } from '../i18n.jsx'
 import { Reveal } from '../hooks.jsx'
-import { CONTACT, SOCIALS } from '../config.js'
+import { CONTACT, SOCIALS, TELEGRAM_BOT } from '../config.js'
 import { Icon } from '../components/Icons.jsx'
 
 export default function Contact({ prefill }) {
@@ -17,21 +17,47 @@ export default function Contact({ prefill }) {
     if (prefill.comment) setComment(prefill.comment)
   }, [prefill]) // eslint-disable-line react-hooks/exhaustive-deps
 
+  /*
+    Дублюємо заявку рядком у Google-таблицю.
+
+    Apps Script не віддає заголовків CORS, тож читати відповідь браузер не дає —
+    шлемо через mode: 'no-cors' і просто не чекаємо результату. Тому запис у
+    таблицю ніколи не має вирішувати долю форми: якщо таблиця не відповіла,
+    людина все одно бачить «дякуємо», бо лист на пошту вже пішов.
+  */
+  const sendToSheet = (payload) => {
+    if (!CONTACT.sheetEndpoint) return
+    fetch(CONTACT.sheetEndpoint, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+      body: JSON.stringify(payload),
+    }).catch(() => {})
+  }
+
   const onSubmit = async (e) => {
     e.preventDefault()
     const form = e.target
     setStatus('sending')
+
+    const payload = {
+      name: form.name.value,
+      phone: form.phone.value,
+      email: form.email.value,
+      interest: form.interest.value,
+      comment: form.comment.value,
+      page: window.location.href,
+    }
+
+    sendToSheet(payload)
+
     try {
       const res = await fetch(CONTACT.formEndpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify({
           _subject: 'Avenue Estate: nowe zgłoszenie ze strony',
-          name: form.name.value,
-          phone: form.phone.value,
-          email: form.email.value,
-          interest: form.interest.value,
-          comment: form.comment.value,
+          ...payload,
         }),
       })
       if (!res.ok) throw new Error()
@@ -49,13 +75,15 @@ export default function Contact({ prefill }) {
         <div>
           <Reveal as="span" className="kicker">Avenue Estate / {t.contact.title}</Reveal>
           <Reveal as="h2" className="display section-title" delay={0.08}>{t.contact.title}</Reveal>
-          <Reveal as="p" delay={0.14} style={{ color: 'var(--beige-dim)', maxWidth: '40ch', marginTop: 10 }}>
+          <Reveal as="p" delay={0.14} style={{ color: 'var(--fg-dim)', maxWidth: '40ch', marginTop: 10 }}>
             {t.contact.lead}
           </Reveal>
           <Reveal as="ul" className="contact-list" delay={0.2}>
             <li>
               <div className="label">{t.contact.phone}</div>
-              <a className="value" href={CONTACT.phoneHref}>{CONTACT.phone}</a>
+              {CONTACT.phones.map((p) => (
+                <a className="value" href={p.href} key={p.href}>{p.display}</a>
+              ))}
             </li>
             <li>
               <div className="label">{t.contact.email}</div>
@@ -64,6 +92,12 @@ export default function Contact({ prefill }) {
             <li>
               <div className="label">{t.contact.hours}</div>
               <div className="value" style={{ fontSize: '1.15rem' }}>{t.contact.hoursValue}</div>
+            </li>
+            <li>
+              <div className="label">{t.contact.bot}</div>
+              <a className="value" href={TELEGRAM_BOT} target="_blank" rel="noreferrer">
+                @Avenuerealestate_bot
+              </a>
             </li>
             <li>
               <div className="label">{t.contact.socials}</div>
